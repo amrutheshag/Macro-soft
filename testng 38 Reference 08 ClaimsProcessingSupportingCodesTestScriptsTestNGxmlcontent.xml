@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="DEMO TEST" configfailurepolicy="skip">
+
+  <test name="Disposition Codes Add Test Script">
+    <classes>
+      <class name="com.test.DispositionCodesAddTestScript"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  <test name="Disposition Codes Add Comm Test Script">
+    <classes>
+      <class name="com.test.DispositionCodesAddCommTestScript"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  
+   <test name="Disposition Codes Copy Test Script">
+    <classes>
+      <class name="com.test.DispositionCodesCopyTestScript"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  
+  <test name="Disposition Codes Edit Test Script">
+    <classes>
+      <class name="com.test.DispositionCodesEditTestScript"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  
+  <test name="Disposition Codes Delete Test Script">
+    <classes>
+      <class name="com.test.DispositionCodesDeleteTestScript"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  
+  <test name="Disposition Codes Exit Test Script">
+    <classes>
+      <class name="com.test.DispositionCodesExitTestScript"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  <test name="Place of Service Types Add Test Script">
+    <classes>
+      <class name="com.test.PlaceofServiceTypesAddTestScript"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  <test name="Place of Service Types Add Comm Test Script">
+    <classes>
+      <class name="com.test.PlaceofServiceTypesAddCommTestScript"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  
+   <test name="Place of Service Types Copy Test Script">
+    <classes>
+      <class name="com.test.PlaceofServiceTypesCopyTestScript"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  
+  <test name="Place of Service Types Edit Test Script">
+    <classes>
+      <class name="com.test.PlaceofServiceTypesEditTestScript"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  
+  <test name="Place of Service Types Delete Test Script">
+    <classes>
+      <class name="com.test.PlaceofServiceTypesDeleteTestScript"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  
+  <test name="Place of Service Types Exit Test Script">
+    <classes>
+      <class name="com.test.PlaceofServiceTypesExitTestScript"/>
+    </classes>
+  </test> <!-- Test -->
+  
+    <test name="Adjustment Types Add Test Script">
+    <classes>
+      <class name="com.test.AdjustmentTypesAddTestScript"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  <test name="Adjustment Types Add Comm Test Script">
+    <classes>
+      <class name="com.test.AdjustmentTypesAddCommTestScript"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  
+   <test name="Adjustment Types Copy Test Script">
+    <classes>
+      <class name="com.test.AdjustmentTypesCopyTestScript"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  
+  <test name="Adjustment Types Edit Test Script">
+    <classes>
+      <class name="com.test.AdjustmentTypesEditTestScript"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  
+  <test name="Adjustment Types Delete Test Script">
+    <classes>
+      <class name="com.test.AdjustmentTypesDeleteTestScript"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  
+  <test name="Adjustment Types Exit Test Script">
+    <classes>
+      <class name="com.test.AdjustmentTypesExitTestScript"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  
+
+  
+  </suite> <!-- Suite -->

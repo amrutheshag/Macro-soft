@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="DEMO TEST" configfailurepolicy="skip">
+
+
+
+
+
+
+<test name="Starting  Test Script">
+    <classes>
+      <class name="com.test.StartingRegressionSuiteExecution"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  
+  
+
+<test name="Carriers Add Test Script">
+    <classes>
+      <class name="com.test.CarriersAddTestScript"/>
+    </classes>
+  </test> <!-- Test -->
+  
+ <test name="Carriers Add Comm Test Script">
+    <classes>
+      <class name="com.test.CarriersAddCommTestScript"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  
+   <test name="Carriers Copy Test Script">
+    <classes>
+      <class name="com.test.CarriersCopyTestScript"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  
+  <test name="Carriers Edit Test Script">
+    <classes>
+      <class name="com.test.CarriersEditTestScript"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  
+  <test name="Carriers Delete Test Script">
+    <classes>
+      <class name="com.test.CarriersDeleteTestScript"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  
+  <test name="Carriers Exit Test Script">
+    <classes>
+      <class name="com.test.CarriersExitTestScript"/>
+    </classes>
+  </test> <!-- Test -->
+
+
+<test name="Ending  Test Script">
+    <classes>
+      <class name="com.test.FindNumberOfErrors"/>
+    </classes>
+  </test> <!-- Test -->
+
+
+
+
+ 
+  </suite> <!-- Suite -->

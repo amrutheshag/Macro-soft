@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="DEMO TEST" configfailurepolicy="skip">
+
+
+<test name="Starting  Test Script">
+    <classes>
+      <class name="com.test.StartingRegressionSuiteExecution"/>
+    </classes>
+  </test> <!-- Test -->
+
+
+
+
+<test name="Members- Create  Test Data Script">
+    <classes>
+      <class name="com.test.CreateTestData"/>
+    </classes>
+  </test> <!-- Test -->
+  
+
+
+  <test name="AuthorizationsExaminer View - Add Test Script">
+    <classes>
+      <class name="com.test.AuthorizationExaminerViewAdd"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  
+   <test name="Authorizations Examiner View-  Add Communication Test Script">
+    <classes>
+      <class name="com.test.AuthorizationExaminerViewAddComm"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  <test name="Authorizations Examiner View- Copy Test Script">
+    <classes>
+      <class name="com.test.AuthorizationExaminerViewCopy"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  
+<test name="Authorizations Examiner View - Edit Test Script">
+    <classes>
+      <class name="com.test.AuthorizationExaminerViewEdit"/>
+    </classes>
+  </test> <!-- Test -->
+  
+<test name="Authorizations Examiner View - Exit Test Script">
+    <classes>
+      <class name="com.test.AuthorizationExaminerViewExit"/>
+    </classes>
+  </test> <!-- Test -->
+  
+<test name="Authorizations Examiner View - Validate Test Script">
+    <classes>
+      <class name="com.test.AuthorizationExaminerViewValidate"/>
+    </classes>
+  </test> <!-- Test -->
+  
+
+  <test name="Authorizations Examiner View Delete Test Script">
+    <classes>
+      <class name="com.test.AuthorizationExaminerViewDelete"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  
+  
+  
+  <test name="Ending  Test Script">
+    <classes>
+      <class name="com.test.FindNumberOfErrors"/>
+    </classes>
+  </test> <!-- Test -->
+
+  
+  
+  </suite> <!-- Suite -->

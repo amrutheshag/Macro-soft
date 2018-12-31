@@ -1,0 +1,328 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="DEMO TEST" configfailurepolicy="skip">
+
+  <test name="UM Case Status Codes Add Test Script">
+    <classes>
+      <class name="com.test.UMCaseStatusCodesAddTestScript"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  <test name="UM Case Status Codes Add Comm Test Script">
+    <classes>
+      <class name="com.test.UMCaseStatusCodesAddCommTestScript"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  
+   <test name="UM Case Status Codes Copy Test Script">
+    <classes>
+      <class name="com.test.UMCaseStatusCodesCopyTestScript"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  
+  <test name="UM Case Status Codes Edit Test Script">
+    <classes>
+      <class name="com.test.UMCaseStatusCodesEditTestScript"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  
+  <test name="UM Case Status Codes Delete Test Script">
+    <classes>
+      <class name="com.test.UMCaseStatusCodesDeleteTestScript"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  
+  <test name="UM Case Status Codes Exit Test Script">
+    <classes>
+      <class name="com.test.UMCaseStatusCodesExitTestScript"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  <test name="UM Reasons for Referral Add Test Script">
+    <classes>
+      <class name="com.test.UMReasonsforReferralAddTestScript"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  <test name="UM Reasons for Referral Add Comm Test Script">
+    <classes>
+      <class name="com.test.UMReasonsforReferralAddCommTestScript"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  
+   <test name="UM Reasons for Referral Copy Test Script">
+    <classes>
+      <class name="com.test.UMReasonsforReferralCopyTestScript"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  
+  <test name="UM Reasons for Referral Edit Test Script">
+    <classes>
+      <class name="com.test.UMReasonsforReferralEditTestScript"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  
+  <test name="UM Reasons for Referral Delete Test Script">
+    <classes>
+      <class name="com.test.UMReasonsforReferralDeleteTestScript"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  
+  <test name="UM Reasons for Referral Exit Test Script">
+    <classes>
+      <class name="com.test.UMReasonsforReferralExitTestScript"/>
+    </classes>
+  </test> <!-- Test -->
+  
+   <test name="UM Case Referrral Sources Add Test Script">
+    <classes>
+      <class name="com.test.UMCaseReferralSourcesAddTestScript"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  <test name="UM Case Referrral Sources Add Comm Test Script">
+    <classes>
+      <class name="com.test.UMCaseReferralSourcesAddCommTestScript"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  
+   <test name="UM Case Referrral Sources Copy Test Script">
+    <classes>
+      <class name="com.test.UMCaseReferralSourcesCopyTestScript"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  
+  <test name="UM Case Referrral Sources Edit Test Script">
+    <classes>
+      <class name="com.test.UMCaseReferralSourcesEditTestScript"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  
+  <test name="UM Case Referrral Sources Delete Test Script">
+    <classes>
+      <class name="com.test.UMCaseReferralSourcesDeleteTestScript"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  
+  <test name="UM Case Referrral Sources Exit Test Script">
+    <classes>
+      <class name="com.test.UMCaseReferralSourcesExitTestScript"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  <test name="UM Degrees of Clinical Urgency Add Test Script">
+    <classes>
+      <class name="com.test.UMDegreesofClinicalUrgencyAddTestScript"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  <test name="UM Degrees of Clinical Urgency Add Comm Test Script">
+    <classes>
+      <class name="com.test.UMDegreesofClinicalUrgencyAddCommTestScript"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  
+   <test name="UM Degrees of Clinical Urgency Copy Test Script">
+    <classes>
+      <class name="com.test.UMDegreesofClinicalUrgencyCopyTestScript"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  
+  <test name="UM Degrees of Clinical Urgency Edit Test Script">
+    <classes>
+      <class name="com.test.UMDegreesofClinicalUrgencyEditTestScript"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  
+  <test name="UM Degrees of Clinical Urgency Delete Test Script">
+    <classes>
+      <class name="com.test.UMDegreesofClinicalUrgencyDeleteTestScript"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  
+  <test name="UM Degrees of Clinical Urgency Exit Test Script">
+    <classes>
+      <class name="com.test.UMDegreesofClinicalUrgencyExitTestScript"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  <test name="Initial Response at Intakes Add Test Script">
+    <classes>
+      <class name="com.test.InitialResponseatIntakesAddTestScript"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  <test name="Initial Response at Intakes Add Comm Test Script">
+    <classes>
+      <class name="com.test.InitialResponseatIntakesAddCommTestScript"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  
+   <test name="Initial Response at Intakes Copy Test Script">
+    <classes>
+      <class name="com.test.InitialResponseatIntakesCopyTestScript"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  
+  <test name="Initial Response at Intakes Edit Test Script">
+    <classes>
+      <class name="com.test.InitialResponseatIntakesEditTestScript"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  
+  <test name="Initial Response at Intakes Delete Test Script">
+    <classes>
+      <class name="com.test.InitialResponseatIntakesDeleteTestScript"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  
+  <test name="Initial Response at Intakes Exit Test Script">
+    <classes>
+      <class name="com.test.InitialResponseatIntakesExitTestScript"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  <test name="UM Provider Roles Add Test Script">
+    <classes>
+      <class name="com.test.UMProviderRolesAddTestScript"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  <test name="UM Provider Roles Add Comm Test Script">
+    <classes>
+      <class name="com.test.UMProviderRolesAddCommTestScript"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  
+   <test name="UM Provider Roles Copy Test Script">
+    <classes>
+      <class name="com.test.UMProviderRolesCopyTestScript"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  
+  <test name="UM Provider Roles Edit Test Script">
+    <classes>
+      <class name="com.test.UMProviderRolesEditTestScript"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  
+  <test name="UM Provider Roles Delete Test Script">
+    <classes>
+      <class name="com.test.UMProviderRolesDeleteTestScript"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  
+  <test name="UM Provider Roles Exit Test Script">
+    <classes>
+      <class name="com.test.UMProviderRolesExitTestScript"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  <test name="Inpatient Wards/Units Add Test Script">
+    <classes>
+      <class name="com.test.InpatientWardsUnitsAddTestScript"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  <test name="Inpatient Wards/Units Add Comm Test Script">
+    <classes>
+      <class name="com.test.InpatientWardsUnitsAddCommTestScript"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  
+   <test name="Inpatient Wards/Units Copy Test Script">
+    <classes>
+      <class name="com.test.InpatientWardsUnitsCopyTestScript"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  
+  <test name="Inpatient Wards/Units Edit Test Script">
+    <classes>
+      <class name="com.test.InpatientWardsUnitsEditTestScript"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  
+  <test name="Inpatient Wards/Units Delete Test Script">
+    <classes>
+      <class name="com.test.InpatientWardsUnitsDeleteTestScript"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  
+  <test name="Inpatient Wards/Units Exit Test Script">
+    <classes>
+      <class name="com.test.InpatientWardsUnitsExitTestScript"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  <test name="Treatment Followup Actions Add Test Script">
+    <classes>
+      <class name="com.test.TreatmentFollowupActionsAddTestScript"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  <test name="Treatment Followup Actions Add Comm Test Script">
+    <classes>
+      <class name="com.test.TreatmentFollowupActionsAddCommTestScript"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  
+   <test name="Treatment Followup Actions Copy Test Script">
+    <classes>
+      <class name="com.test.TreatmentFollowupActionsCopyTestScript"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  
+  <test name="Treatment Followup Actions Edit Test Script">
+    <classes>
+      <class name="com.test.TreatmentFollowupActionsEditTestScript"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  
+  <test name="Treatment Followup Actions Delete Test Script">
+    <classes>
+      <class name="com.test.TreatmentFollowupActionsDeleteTestScript"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  
+  <test name="Treatment Followup Actions Exit Test Script">
+    <classes>
+      <class name="com.test.TreatmentFollowupActionsExitTestScript"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  
+
+  
+  </suite> <!-- Suite -->

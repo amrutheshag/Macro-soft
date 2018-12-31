@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="DEMO TEST" configfailurepolicy="skip">
+
+
+
+ <test name="Starting  Test Script">
+    <classes>
+      <class name="com.test.StartingRegressionSuiteExecution"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  
+  
+  
+  
+  <test name="Academic Degrees Add Test Script">
+    <classes>
+      <class name="com.test.AcademicDegreesAddTestScript"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  <test name="Academic Degrees Add Comm Test Script">
+    <classes>
+      <class name="com.test.AcademicDegreesAddCommTestScript"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  
+   <test name="Academic Degrees Copy Test Script">
+    <classes>
+      <class name="com.test.AcademicDegreesCopyTestScript"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  
+  <test name="Academic Degrees Edit Test Script">
+    <classes>
+      <class name="com.test.AcademicDegreesEditTestScript"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  
+  <test name="Academic Degrees Delete Test Script">
+    <classes>
+      <class name="com.test.AcademicDegreesDeleteTestScript"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  
+  <test name="Academic Degrees Exit Test Script">
+    <classes>
+      <class name="com.test.AcademicDegreesExitTestScript"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  
+  
+<test name="Setup - Unlock Claims">
+    <classes>
+      <class name="com.test.UnlockClaims"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  
+  
+  
+ 
+  </suite> <!-- Suite -->
+  

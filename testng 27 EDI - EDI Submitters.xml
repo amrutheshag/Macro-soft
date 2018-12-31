@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="DEMO TEST" configfailurepolicy="skip">
+
+  
+  
+  <test name="Starting  Test Script">
+    <classes>
+      <class name="com.test.StartingRegressionSuiteExecution"/>
+    </classes>
+  </test> <!-- Test -->
+  
+ <test name="EDI Submitters - Add Test Script">
+    <classes>
+      <class name="com.test.EDISubmittersAdd"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  
+  <test name="EDI Submitters- Edit Test Script">
+    <classes>
+      <class name="com.test.EDISubmittersEdit"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  
+  <test name="EDI SUbmitters Copy Test Script">
+    <classes>
+      <class name="com.test.EDISubmittersCopy"/>
+    </classes>
+  </test> <!-- Test -->
+  
+
+<test name="EDI Submitters Add Comm Test Script">
+    <classes>
+      <class name="com.test.EDISubmittersAddComm"/>
+    </classes>
+  </test> <!-- Test -->
+
+
+
+<test name="EDI Submitters - Exit Test Script">
+    <classes>
+      <class name="com.test.EDISubmittersExit"/>
+    </classes>
+  </test> <!-- Test -->
+
+
+<test name="EDI Submitter Delete Test Script">
+    <classes>
+      <class name="com.test.EDISubmittersDelete"/>
+    </classes>
+  </test> <!-- Test -->
+
+
+
+<test name="Ending  Test Script">
+    <classes>
+      <class name="com.test.FindNumberOfErrors"/>
+    </classes>
+  </test> <!-- Test -->
+
+
+ 
+  </suite> <!-- Suite -->

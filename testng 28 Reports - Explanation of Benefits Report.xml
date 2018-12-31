@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="DEMO TEST" configfailurepolicy="skip">
+
+<test name="Starting  Test Script">
+    <classes>
+      <class name="com.test.StartingRegressionSuiteExecution"/>
+    </classes>
+  </test> <!-- Test -->
+  
+ <test name="EOB Report - Edit Claim Query Test Script">
+    <classes>
+      <class name="com.test.EOBEditClaimQuery"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  
+  <test name="EOB Report- Extract Claims Data ReportTest Script">
+    <classes>
+      <class name="com.test.EOBExtractClaimsDataReport"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  
+  <test name="EOB Report -  Log Claims As Paid Test Script">
+    <classes>
+      <class name="com.test.EOBLogClaimsAsPaidReport"/>
+    </classes>
+  </test> <!-- Test -->
+  
+
+<test name="EOB Report- Exit Test Script">
+    <classes>
+      <class name="com.test.EOBReportExit"/>
+    </classes>
+  </test> <!-- Test -->
+
+
+
+<test name="EOB Report - Show Data Test Script">
+    <classes>
+      <class name="com.test.EOBReportShowData"/>
+    </classes>
+  </test> <!-- Test -->
+
+
+
+
+
+  <test name="EOB Report- FL Extract Claims Data ReportTest Script">
+    <classes>
+      <class name="com.test.EOBFLCloseoutTestScript"/>
+    </classes>
+  </test> <!-- Test -->
+
+
+
+
+
+
+<test name="EOB Report- CA Extract Claims Data Report Test Script">
+    <classes>
+      <class name="com.test.EOBCACloseoutTestScript"/>
+    </classes>
+  </test> <!-- Test -->
+
+
+
+
+
+<test name="EOB Report- FIVP Extract Claims Data Report Test Script">
+    <classes>
+      <class name="com.test.EOBFIVPCloseoutTestScript"/>
+    </classes>
+  </test> <!-- Test -->
+
+
+
+
+<test name="EOB Report- Other Plans Extract Claims Data Report Test Script">
+    <classes>
+      <class name="com.test.EOBOtherPlansCloseoutTestScript"/>
+    </classes>
+  </test> <!-- Test -->
+
+
+<test name="EOB Report- Puerto Rico Extract Claims Data Report Test Script">
+    <classes>
+      <class name="com.test.EOBPuertoRicoCloseoutTestScript"/>
+    </classes>
+  </test> <!-- Test -->
+
+
+
+
+<test name="EOB Report- Benelect Extract Claims Data Report Test Script">
+    <classes>
+      <class name="com.test.EOBBenelectCloseoutTestScript"/>
+    </classes>
+  </test> <!-- Test -->
+
+
+
+
+
+<test name="Setup - Unlock Claims">
+    <classes>
+      <class name="com.test.UnlockClaims"/>
+    </classes>
+  </test> <!-- Test -->
+  
+
+
+
+
+<test name="Ending  Test Script">
+    <classes>
+      <class name="com.test.FindNumberOfErrors"/>
+    </classes>
+  </test> <!-- Test -->
+
+
+
+ 
+  </suite> <!-- Suite -->

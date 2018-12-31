@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="DEMO TEST" configfailurepolicy="skip">
+
+<test name="Starting  Test Script">
+    <classes>
+      <class name="com.test.StartingRegressionSuiteExecution"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  
+ <test name="Late Claim Interest Schedule- Add  Test Script">
+    <classes>
+      <class name="com.test.LateClaimInterestScheduleAdd"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  
+  <test name="Late Claim Interest Schedule - Edit Test Script">
+    <classes>
+      <class name="com.test.LateClaimInterestScheduleEdit"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  
+  <test name="Late Claim Interest Schedule - Copy  Test Script">
+    <classes>
+      <class name="com.test.LateClaimInterestScheduleCopy"/>
+    </classes>
+  </test> <!-- Test -->
+  
+
+<test name="Late Claim Interest Schedule- Add Comm  Test Script">
+    <classes>
+      <class name="com.test.LateClaimInterestScheduleAddComm"/>
+    </classes>
+  </test> <!-- Test -->
+
+
+
+<test name="Late Claim Interest Schedule - Exit  Test Script">
+    <classes>
+      <class name="com.test.LateClaimInterestScheduleExit"/>
+    </classes>
+  </test> <!-- Test -->
+
+
+<test name="Late Claim Interest Schedule- Delete Test Script">
+    <classes>
+      <class name="com.test.LateClaimInterestScheduleDelete"/>
+    </classes>
+  </test> <!-- Test -->
+
+
+<test name="Ending  Test Script">
+    <classes>
+      <class name="com.test.FindNumberOfErrors"/>
+    </classes>
+  </test> <!-- Test -->
+
+
+ 
+  </suite> <!-- Suite -->

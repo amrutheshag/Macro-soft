@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="DEMO TEST" configfailurepolicy="skip">
+
+  <test name="HCFA Service Types Add Test Script">
+    <classes>
+      <class name="com.test.HCFAServiceTypesAddTestScript"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  <test name="HCFA Service Types Add Comm Test Script">
+    <classes>
+      <class name="com.test.HCFAServiceTypesAddCommTestScript"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  
+   <test name="HCFA Service Types Copy Test Script">
+    <classes>
+      <class name="com.test.HCFAServiceTypesCopyTestScript"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  
+  <test name="HCFA Service Types Edit Test Script">
+    <classes>
+      <class name="com.test.HCFAServiceTypesEditTestScript"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  
+  <test name="HCFA Service Types Delete Test Script">
+    <classes>
+      <class name="com.test.HCFAServiceTypesDeleteTestScript"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  
+  <test name="HCFA Service Types Exit Test Script">
+    <classes>
+      <class name="com.test.HCFAServiceTypesExitTestScript"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  <test name="Service Categories Add Test Script">
+    <classes>
+      <class name="com.test.ServiceCategoriesAddTestScript"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  <test name="Service Categories Add Comm Test Script">
+    <classes>
+      <class name="com.test.ServiceCategoriesAddCommTestScript"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  
+   <test name="Service Categories Copy Test Script">
+    <classes>
+      <class name="com.test.ServiceCategoriesCopyTestScript"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  
+  <test name="Service Categories Edit Test Script">
+    <classes>
+      <class name="com.test.ServiceCategoriesEditTestScript"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  
+  <test name="Service Categories Delete Test Script">
+    <classes>
+      <class name="com.test.ServiceCategoriesDeleteTestScript"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  
+  <test name="Service Categories Exit Test Script">
+    <classes>
+      <class name="com.test.ServiceCategoriesExitTestScript"/>
+    </classes>
+  </test> <!-- Test -->
+  
+   <test name="Modifiers Add Test Script">
+    <classes>
+      <class name="com.test.ModifiersAddTestScript"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  <test name="Modifiers Add Comm Test Script">
+    <classes>
+      <class name="com.test.ModifiersAddCommTestScript"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  
+   <test name="Modifiers Copy Test Script">
+    <classes>
+      <class name="com.test.ModifiersCopyTestScript"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  
+  <test name="Modifiers Edit Test Script">
+    <classes>
+      <class name="com.test.ModifiersEditTestScript"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  
+  <test name="Modifiers Delete Test Script">
+    <classes>
+      <class name="com.test.ModifiersDeleteTestScript"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  
+  <test name="Modifiers Exit Test Script">
+    <classes>
+      <class name="com.test.ModifiersExitTestScript"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  <test name="Service Sets Add Test Script">
+    <classes>
+      <class name="com.test.ServiceSetsAddTestScript"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  <test name="Service Sets Add Comm Test Script">
+    <classes>
+      <class name="com.test.ServiceSetsAddCommTestScript"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  
+   <test name="Service Sets Copy Test Script">
+    <classes>
+      <class name="com.test.ServiceSetsCopyTestScript"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  
+  <test name="Service Sets Edit Test Script">
+    <classes>
+      <class name="com.test.ServiceSetsEditTestScript"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  
+  <test name="Service Sets Delete Test Script">
+    <classes>
+      <class name="com.test.ServiceSetsDeleteTestScript"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  
+  <test name="Service Sets Exit Test Script">
+    <classes>
+      <class name="com.test.ServiceSetsExitTestScript"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  <test name="RVU Geographic Multipliers Add Test Script">
+    <classes>
+      <class name="com.test.RVUGeographicMultipliersAddTestScript"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  <test name="RVU Geographic Multipliers Add Comm Test Script">
+    <classes>
+      <class name="com.test.RVUGeographicMultipliersAddCommTestScript"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  
+   <test name="RVU Geographic Multipliers Copy Test Script">
+    <classes>
+      <class name="com.test.RVUGeographicMultipliersCopyTestScript"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  
+  <test name="RVU Geographic Multipliers Edit Test Script">
+    <classes>
+      <class name="com.test.RVUGeographicMultipliersEditTestScript"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  
+  <test name="RVU Geographic Multipliers Delete Test Script">
+    <classes>
+      <class name="com.test.RVUGeographicMultipliersDeleteTestScript"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  
+  <test name="RVU Geographic Multipliers Exit Test Script">
+    <classes>
+      <class name="com.test.RVUGeographicMultipliersExitTestScript"/>
+    </classes>
+  </test> <!-- Test -->
+  
+
+  
+  
+
+  
+  </suite> <!-- Suite -->

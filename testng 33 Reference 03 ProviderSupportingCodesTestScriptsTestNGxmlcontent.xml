@@ -1,0 +1,248 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="DEMO TEST" configfailurepolicy="skip">
+
+  <test name="Academic Degrees Add Test Script">
+    <classes>
+      <class name="com.test.AcademicDegreesAddTestScript"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  <test name="Academic Degrees Add Comm Test Script">
+    <classes>
+      <class name="com.test.AcademicDegreesAddCommTestScript"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  
+   <test name="Academic Degrees Copy Test Script">
+    <classes>
+      <class name="com.test.AcademicDegreesCopyTestScript"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  
+  <test name="Academic Degrees Edit Test Script">
+    <classes>
+      <class name="com.test.AcademicDegreesEditTestScript"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  
+  <test name="Academic Degrees Delete Test Script">
+    <classes>
+      <class name="com.test.AcademicDegreesDeleteTestScript"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  
+  <test name="Academic Degrees Exit Test Script">
+    <classes>
+      <class name="com.test.AcademicDegreesExitTestScript"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  <test name="Provider Types Add Test Script">
+    <classes>
+      <class name="com.test.ProviderTypesAddTestScript"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  <test name="Provider Types Add Comm Test Script">
+    <classes>
+      <class name="com.test.ProviderTypesAddCommTestScript"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  
+   <test name="Provider Types Copy Test Script">
+    <classes>
+      <class name="com.test.ProviderTypesCopyTestScript"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  
+  <test name="Provider Types Edit Test Script">
+    <classes>
+      <class name="com.test.ProviderTypesEditTestScript"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  
+  <test name="Provider Types Delete Test Script">
+    <classes>
+      <class name="com.test.ProviderTypesDeleteTestScript"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  
+  <test name="Provider Types Exit Test Script">
+    <classes>
+      <class name="com.test.ProviderTypesExitTestScript"/>
+    </classes>
+  </test> <!-- Test -->
+  
+   <test name="Provider-Organization Affiliation Types Add Test Script">
+    <classes>
+      <class name="com.test.ProviderOrganizationAffiliationTypesAddTestScript"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  <test name="Provider-Organization Affiliation Types Add Comm Test Script">
+    <classes>
+      <class name="com.test.ProviderOrganizationAffiliationTypesAddCommTestScript"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  
+   <test name="Provider-Organization Affiliation Types Copy Test Script">
+    <classes>
+      <class name="com.test.ProviderOrganizationAffiliationTypesCopyTestScript"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  
+  <test name="Provider-Organization Affiliation Types Edit Test Script">
+    <classes>
+      <class name="com.test.ProviderOrganizationAffiliationTypesEditTestScript"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  
+  <test name="Provider-Organization Affiliation Types Delete Test Script">
+    <classes>
+      <class name="com.test.ProviderOrganizationAffiliationTypesDeleteTestScript"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  
+  <test name="Provider-Organization Affiliation Types Exit Test Script">
+    <classes>
+      <class name="com.test.ProviderOrganizationAffiliationTypesExitTestScript"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  <test name="Office Types Add Test Script">
+    <classes>
+      <class name="com.test.OfficeTypesAddTestScript"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  <test name="Office Types Add Comm Test Script">
+    <classes>
+      <class name="com.test.OfficeTypesAddCommTestScript"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  
+   <test name="Office Types Copy Test Script">
+    <classes>
+      <class name="com.test.OfficeTypesCopyTestScript"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  
+  <test name="Office Types Edit Test Script">
+    <classes>
+      <class name="com.test.OfficeTypesEditTestScript"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  
+  <test name="Office Types Delete Test Script">
+    <classes>
+      <class name="com.test.OfficeTypesDeleteTestScript"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  
+  <test name="Office Types Exit Test Script">
+    <classes>
+      <class name="com.test.OfficeTypesExitTestScript"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  <test name="Other Credentialling Source Types Add Test Script">
+    <classes>
+      <class name="com.test.OtherCredentiallingSourceTypesAddTestScript"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  <test name="Other Credentialling Source Types Add Comm Test Script">
+    <classes>
+      <class name="com.test.OtherCredentiallingSourceTypesAddCommTestScript"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  
+   <test name="Other Credentialling Source Types Copy Test Script">
+    <classes>
+      <class name="com.test.OtherCredentiallingSourceTypesCopyTestScript"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  
+  <test name="Other Credentialling Source Types Edit Test Script">
+    <classes>
+      <class name="com.test.OtherCredentiallingSourceTypesEditTestScript"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  
+  <test name="Other Credentialling Source Types Delete Test Script">
+    <classes>
+      <class name="com.test.OtherCredentiallingSourceTypesDeleteTestScript"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  
+  <test name="Other Credentialling Source Types Exit Test Script">
+    <classes>
+      <class name="com.test.OtherCredentiallingSourceTypesExitTestScript"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  <test name="Credentialling Statuses Add Test Script">
+    <classes>
+      <class name="com.test.CredentiallingStatusesAddTestScript"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  <test name="Credentialling Statuses Add Comm Test Script">
+    <classes>
+      <class name="com.test.CredentiallingStatusesAddCommTestScript"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  
+   <test name="Credentialling Statuses Copy Test Script">
+    <classes>
+      <class name="com.test.CredentiallingStatusesCopyTestScript"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  
+  <test name="Credentialling Statuses Edit Test Script">
+    <classes>
+      <class name="com.test.CredentiallingStatusesEditTestScript"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  
+  <test name="Credentialling Statuses Delete Test Script">
+    <classes>
+      <class name="com.test.CredentiallingStatusesDeleteTestScript"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  
+  <test name="Credentialling Statuses Exit Test Script">
+    <classes>
+      <class name="com.test.CredentiallingStatusesExitTestScript"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  
+
+  
+  </suite> <!-- Suite -->

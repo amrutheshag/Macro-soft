@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="DEMO TEST" configfailurepolicy="skip">
+
+
+<test name="Starting  Test Script">
+    <classes>
+      <class name="com.test.StartingRegressionSuiteExecution"/>
+    </classes>
+  </test> <!-- Test -->
+
+
+  
+ <test name="Benefit Plan- Add  Test Script">
+    <classes>
+      <class name="com.test.BenefitPlanAdd"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  
+  <test name="Benefit Plan - Edit Test Script">
+    <classes>
+      <class name="com.test.BenefitPlanEdit"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  
+  <test name="Benefit Plan - Copy Test Script">
+    <classes>
+      <class name="com.test.BenefitPlanCopy"/>
+    </classes>
+  </test> <!-- Test -->
+  
+
+<test name="Benefit Plan - Add Comm Test Script">
+    <classes>
+      <class name="com.test.BenefitPlanAddComm"/>
+    </classes>
+  </test> <!-- Test -->
+
+
+<test name="Benefit Plan - Add with Copy and Add Premium Notes Test Script">
+    <classes>
+      <class name="com.test.BenefitPlanAddWithCopyAddPremiumNotes"/>
+    </classes>
+  </test> <!-- Test -->
+
+
+
+<test name="Benefit Plan- Exit  Test Script">
+    <classes>
+      <class name="com.test.BenefitPlanExit"/>
+    </classes>
+  </test> <!-- Test -->
+
+
+
+
+
+
+
+<test name="Benefit Plan Copy Claim Type Query - Copy Test Script">
+    <classes>
+      <class name="com.test.Jira726ClaimTypeCopy"/>
+    </classes>
+  </test> <!-- Test -->
+  
+
+
+
+<test name="Benefit Plan Copy Service Type Query - Copy Test Script">
+    <classes>
+      <class name="com.test.Jira726ServiceTypeCopy"/>
+    </classes>
+  </test> <!-- Test -->
+
+
+
+
+
+
+
+<test name=" Jira726 Delete Copy Records In Benefit Plan Claim And Service Queries">
+    <classes>
+      <class name="com.test.Jira726DeleteCopyRecordsInBenefitPlanClaimAndServiceQueries"/>
+    </classes>
+  </test> <!-- Test -->
+
+<test name="Benefit Plan - Delete  Test Script">
+    <classes>
+      <class name="com.test.BenefitPlanDelete"/>
+    </classes>
+  </test> <!-- Test -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<test name="Ending  Test Script">
+    <classes>
+      <class name="com.test.FindNumberOfErrors"/>
+    </classes>
+  </test> <!-- Test -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+  </suite> <!-- Suite -->
+  

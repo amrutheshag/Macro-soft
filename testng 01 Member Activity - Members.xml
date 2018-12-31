@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="DEMO TEST" configfailurepolicy="skip">
+
+
+
+<test name="Starting  Test Script">
+    <classes>
+      <class name="com.test.StartingRegressionSuiteExecution"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  
+ <test name="Members- Add Member Test Script">
+    <classes>
+      <class name="com.test.MembersAddMember"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  
+  <test name="Members- Add Comm  Test Script">
+    <classes>
+      <class name="com.test.MembersAddCommunication"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  
+ 
+  
+  
+  <test name="Members- Edit Member Test Script">
+    <classes>
+      <class name="com.test.MembersEditMember"/>
+    </classes>
+  </test> <!-- Test -->
+  
+ 
+  
+  <test name="Members- Copy Member Test Script">
+    <classes>
+      <class name="com.test.MembersCopyMember"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  
+  <test name="Members- Exit Member Test Script">
+    <classes>
+      <class name="com.test.MembersExitMember"/>
+    </classes>
+  </test> <!-- Test -->
+
+ <test name="Members- Delete Member Test Script">
+    <classes>
+      <class name="com.test.MembersDeleteMember"/>
+    </classes>
+  </test> <!-- Test -->
+  
+
+
+<test name="Members- Create  Test Data Script">
+    <classes>
+      <class name="com.test.CreateTestData"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  
+  
+  
+  <test name="Ending  Test Script">
+    <classes>
+      <class name="com.test.FindNumberOfErrors"/>
+    </classes>
+  </test> <!-- Test -->
+
+  
+  
+  
+  </suite> <!-- Suite -->

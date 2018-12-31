@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="DEMO TEST" configfailurepolicy="skip">
+
+  
+  
+  <test name="Starting  Test Script">
+    <classes>
+      <class name="com.test.StartingRegressionSuiteExecution"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  
+  
+  
+  
+ <test name="Benefit Product- Add  Test Script">
+    <classes>
+      <class name="com.test.BenefitProductAdd"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  
+  <test name="Benefit Product - Edit Test Script">
+    <classes>
+      <class name="com.test.BenefitProductEdit"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  
+  <test name="Benefit Product - Copy Test Script">
+    <classes>
+      <class name="com.test.BenefitProductCopy"/>
+    </classes>
+  </test> <!-- Test -->
+  
+
+<test name="Benefit Product - Add Comm Test Script">
+    <classes>
+      <class name="com.test.BenefitProductAddComm"/>
+    </classes>
+  </test> <!-- Test -->
+
+
+
+<test name="Benefit Product- Exit  Test Script">
+    <classes>
+      <class name="com.test.BenefitProductExit"/>
+    </classes>
+  </test> <!-- Test -->
+
+
+<test name="Benefit Product - Delete  Test Script">
+    <classes>
+      <class name="com.test.BenefitProductDelete"/>
+    </classes>
+  </test> <!-- Test -->
+
+
+
+
+<test name="Ending  Test Script">
+    <classes>
+      <class name="com.test.FindNumberOfErrors"/>
+    </classes>
+  </test> <!-- Test -->
+
+
+ 
+  </suite> <!-- Suite -->
+  

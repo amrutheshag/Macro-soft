@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="DEMO TEST" configfailurepolicy="skip">
+
+  <test name="Diagnostic Categories Add Test Script">
+    <classes>
+      <class name="com.test.DiagnosticCategoriesAddTestScript"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  <test name="Diagnostic Categories Add Comm Test Script">
+    <classes>
+      <class name="com.test.DiagnosticCategoriesAddCommTestScript"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  
+   <test name="Diagnostic Categories Copy Test Script">
+    <classes>
+      <class name="com.test.DiagnosticCategoriesCopyTestScript"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  
+  <test name="Diagnostic Categories Edit Test Script">
+    <classes>
+      <class name="com.test.DiagnosticCategoriesEditTestScript"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  
+  <test name="Diagnostic Categories Delete Test Script">
+    <classes>
+      <class name="com.test.DiagnosticCategoriesDeleteTestScript"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  
+  <test name="Diagnostic Categories Exit Test Script">
+    <classes>
+      <class name="com.test.DiagnosticCategoriesExitTestScript"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  <test name="Diagnosis Codes Add Test Script">
+    <classes>
+      <class name="com.test.DiagnosisCodesAddTestScript"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  <test name="Diagnosis Codes Add Comm Test Script">
+    <classes>
+      <class name="com.test.DiagnosisCodesAddCommTestScript"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  
+   <test name="Diagnosis Codes Copy Test Script">
+    <classes>
+      <class name="com.test.DiagnosisCodesCopyTestScript"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  
+  <test name="Diagnosis Codes Edit Test Script">
+    <classes>
+      <class name="com.test.DiagnosisCodesEditTestScript"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  
+  <test name="Diagnosis Codes Delete Test Script">
+    <classes>
+      <class name="com.test.DiagnosisCodesDeleteTestScript"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  
+  <test name="Diagnosis Codes Exit Test Script">
+    <classes>
+      <class name="com.test.DiagnosisCodesExitTestScript"/>
+    </classes>
+  </test> <!-- Test -->
+  
+   <test name="UR Case/Problem Types Add Test Script">
+    <classes>
+      <class name="com.test.URCaseProblemTypesAddTestScript"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  <test name="UR Case/Problem Types Add Comm Test Script">
+    <classes>
+      <class name="com.test.URCaseProblemTypesAddCommTestScript"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  
+   <test name="UR Case/Problem Types Copy Test Script">
+    <classes>
+      <class name="com.test.URCaseProblemTypesCopyTestScript"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  
+  <test name="UR Case/Problem Types Edit Test Script">
+    <classes>
+      <class name="com.test.URCaseProblemTypesEditTestScript"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  
+  <test name="UR Case/Problem Types Delete Test Script">
+    <classes>
+      <class name="com.test.URCaseProblemTypesDeleteTestScript"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  
+  <test name="UR Case/Problem Types Exit Test Script">
+    <classes>
+      <class name="com.test.URCaseProblemTypesExitTestScript"/>
+    </classes>
+  </test> <!-- Test -->
+  
+   
+  
+
+  
+  </suite> <!-- Suite -->

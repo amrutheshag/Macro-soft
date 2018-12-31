@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="DEMO TEST" configfailurepolicy="skip">
+
+
+<test name="Starting  Test Script">
+    <classes>
+      <class name="com.test.StartingRegressionSuiteExecution"/>
+    </classes>
+  </test> <!-- Test -->
+
+
+
+  <test name="North American Industrial Classifications Add Test Script">
+    <classes>
+      <class name="com.test.NorthAmericanIndustrialClassificationsAddTestScript"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  <test name="North American Industrial Classifications Add Comm Test Script">
+    <classes>
+      <class name="com.test.NorthAmericanIndustrialClassificationsAddCommTestScript"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  
+   <test name="North American Industrial Classifications Copy Test Script">
+    <classes>
+      <class name="com.test.NorthAmericanIndustrialClassificationsCopyTestScript"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  
+  <test name="North American Industrial Classifications Edit Test Script">
+    <classes>
+      <class name="com.test.NorthAmericanIndustrialClassificationsEditTestScript"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  
+  <test name="North American Industrial Classifications Delete Test Script">
+    <classes>
+      <class name="com.test.NorthAmericanIndustrialClassificationsDeleteTestScript"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  
+  <test name="North American Industrial Classifications Exit Test Script">
+    <classes>
+      <class name="com.test.NorthAmericanIndustrialClassificationsExitTestScript"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  
+ 
+  
+
+
+<test name="Ending  Test Script">
+    <classes>
+      <class name="com.test.FindNumberOfErrors"/>
+    </classes>
+  </test> <!-- Test -->
+
+
+
+
+
+
+
+
+ 
+  </suite> <!-- Suite -->

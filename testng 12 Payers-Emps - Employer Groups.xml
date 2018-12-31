@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="DEMO TEST" configfailurepolicy="skip">
+
+
+
+<test name="Starting  Test Script">
+    <classes>
+      <class name="com.test.StartingRegressionSuiteExecution"/>
+    </classes>
+  </test> <!-- Test -->
+
+
+
+  <test name="Employer Groups Add Script">
+    <classes>
+      <class name="com.test.EmployerGroupsAddTestScript"/>
+    </classes>
+  </test> <!-- Test -->
+  
+   <test name="Employer Groups Comm Add Script">
+    <classes>
+      <class name="com.test.EmployerGroupsAddCommTestScript"/>
+    </classes>
+  </test> <!-- Test -->
+  
+   <test name="Employer Groups Copy Script">
+    <classes>
+      <class name="com.test.EmployerGroupsCopyTestScript"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  
+  <test name="Employer Groups Edit Script">
+    <classes>
+      <class name="com.test.EmployerGroupsEditTestScript"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  
+  <test name="Employer Groups Delete Script">
+    <classes>
+      <class name="com.test.EmployerGroupsDeleteTestScript"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  
+  <test name="Employer Groups Exit Script">
+    <classes>
+      <class name="com.test.EmployerGroupsExitTestScript"/>
+    </classes>
+  </test> <!-- Test -->
+
+
+
+
+
+
+<test name="Ending  Test Script">
+    <classes>
+      <class name="com.test.FindNumberOfErrors"/>
+    </classes>
+  </test> <!-- Test -->
+
+
+
+
+
+
+
+ 
+  </suite> <!-- Suite -->

@@ -1,0 +1,371 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="DEMO TEST" configfailurepolicy="skip">
+
+  
+    <test name="Starting  Test Script">
+    <classes>
+      <class name="com.test.StartingRegressionSuiteExecution"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  
+ <test name="Members- Add Member Test Script">
+    <classes>
+      <class name="com.test.MembersAddMember"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  
+  <test name="Members- Add Comm  Test Script">
+    <classes>
+      <class name="com.test.MembersAddCommunication"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  
+ 
+  
+  
+  <test name="Members- Edit Member Test Script">
+    <classes>
+      <class name="com.test.MembersEditMember"/>
+    </classes>
+  </test> <!-- Test -->
+  
+ 
+  
+  <test name="Members- Copy Member Test Script">
+    <classes>
+      <class name="com.test.MembersCopyMember"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  
+  <test name="Members- Exit Member Test Script">
+    <classes>
+      <class name="com.test.MembersExitMember"/>
+    </classes>
+  </test> <!-- Test -->
+
+ <test name="Members- Delete Member Test Script">
+    <classes>
+      <class name="com.test.MembersDeleteMember"/>
+    </classes>
+  </test> <!-- Test -->
+  
+ 
+
+<test name="Members- Create  Test Data Script">
+    <classes>
+      <class name="com.test.CreateTestData"/>
+    </classes>
+  </test> <!-- Test -->
+  
+
+
+
+
+
+
+
+
+
+
+
+  <test name="Member Accumulaotrs - Edit Test Script">
+    <classes>
+      <class name="com.test.MemberAccumulatorEdit"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  
+   <test name="Member Accumulator - Add Communication Test Script">
+    <classes>
+      <class name="com.test.MemberAccumulatorAddComm"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  <test name="Member Accumulator - Exit Test Script">
+    <classes>
+      <class name="com.test.MemberAccumulatorExit"/>
+    </classes>
+  </test> <!-- Test -->
+
+
+
+
+
+
+
+
+
+ <test name="AuthorizationsExaminer View - Add Test Script">
+    <classes>
+      <class name="com.test.AuthorizationExaminerViewAdd"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  
+   <test name="Authorizations Examiner View-  Add Communication Test Script">
+    <classes>
+      <class name="com.test.AuthorizationExaminerViewAddComm"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  <test name="Authorizations Examiner View- Copy Test Script">
+    <classes>
+      <class name="com.test.AuthorizationExaminerViewCopy"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  
+<test name="Authorizations Examiner View - Edit Test Script">
+    <classes>
+      <class name="com.test.AuthorizationExaminerViewEdit"/>
+    </classes>
+  </test> <!-- Test -->
+  
+<test name="Authorizations Examiner View - Exit Test Script">
+    <classes>
+      <class name="com.test.AuthorizationExaminerViewExit"/>
+    </classes>
+  </test> <!-- Test -->
+  
+<test name="Authorizations Examiner View - Validate Test Script">
+    <classes>
+      <class name="com.test.AuthorizationExaminerViewValidate"/>
+    </classes>
+  </test> <!-- Test -->
+  
+
+  <test name="Authorizations Examiner View Delete Test Script">
+    <classes>
+      <class name="com.test.AuthorizationExaminerViewDelete"/>
+    </classes>
+  </test> <!-- Test -->
+
+
+
+
+
+
+
+
+
+  <test name="Member's Authorizations Add Test Script">
+    <classes>
+      <class name="com.test.MemberAuthAdd"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  
+   <test name="Member's Authorizations Add Communication Test Script">
+    <classes>
+      <class name="com.test.MemberAuthAddCommunication"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  <test name="Member's Authorizations Copy Test Script">
+    <classes>
+      <class name="com.test.MemberAuthCopy"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  
+<test name="Member's Authorizations Edit Test Script">
+    <classes>
+      <class name="com.test.MemberAuthEdit"/>
+    </classes>
+  </test> <!-- Test -->
+  
+<test name="Member's Authorizations Exit Test Script">
+    <classes>
+      <class name="com.test.MemberAuthExit"/>
+    </classes>
+  </test> <!-- Test -->
+  
+<test name="Member's Authorizations Validate Test Script">
+    <classes>
+      <class name="com.test.MemberAuthValidate"/>
+    </classes>
+  </test> <!-- Test -->
+  
+
+  <test name="Member's Authorizations Delete Test Script">
+    <classes>
+      <class name="com.test.MemberAuthDelete"/>
+    </classes>
+  </test> <!-- Test -->
+
+
+
+
+
+
+
+
+ <test name="Member's Claims Add Claim Test Script">
+    <classes>
+      <class name="com.test.MCAddMultipleClaims"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  
+  <test name="Member's Claims Copy Claim Test Script">
+    <classes>
+      <class name="com.test.MCCopyMultipleClaims"/>
+    </classes>
+  </test> <!-- Test -->
+  
+<test name="Member's Claims Adjudicate Claim Test Script">
+    <classes>
+      <class name="com.test.MCAdjudicateMultipleClaims"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  
+   <test name="Member's Claims Add Communication Claim Test Script">
+    <classes>
+      <class name="com.test.MCAddCommunicationMultipleClaims"/>
+    </classes>
+  </test> <!-- Test -->
+
+
+  
+  
+  
+  <test name="Member's Claims Edit Claim Test Script">
+    <classes>
+      <class name="com.test.MCEditMultipleClaims"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  
+   <test name="Member's Claims Exit Claim Test Script">
+    <classes>
+      <class name="com.test.MCExitMultipleClaims"/>
+    </classes>
+  </test> <!-- Test -->
+  
+    
+  <test name="Member's Claims New Member Test Script">
+    <classes>
+      <class name="com.test.MCNewMemberMultipleClaims"/>
+    </classes>
+  </test> <!-- Test -->
+  
+   <test name="Member's Claims Move Claim Test Script">
+    <classes>
+      <class name="com.test.MCMoveMultipleClaims"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  
+  <test name="Member's Claims Delete Claim Test Script">
+    <classes>
+      <class name="com.test.MCDeleteMultipleClaims"/>
+    </classes>
+  </test> <!-- Test -->
+  
+
+<test name="Member's Claims Reverse Claim Test Script">
+    <classes>
+      <class name="com.test.MCSimpleReverseMultipleClaims"/>
+    </classes>
+  </test> <!-- Test -->
+
+
+  
+
+
+
+
+
+
+
+
+
+ <test name="Claims Examiner View Add Claim Test Script">
+    <classes>
+      <class name="com.test.CEVAddClaim"/>
+    </classes>
+  </test> <!-- Test -->
+
+
+  <test name="Claims Examiner View Adjudicate Claim Test Script">
+    <classes>
+      <class name="com.test.CEVAdjudicateClaim"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  
+   <test name="Claims Examiner View Add Communication Claim Test Script">
+    <classes>
+      <class name="com.test.CEVAddCommunication"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  
+ 
+  
+  
+  <test name="Claims Examiner View Copy Claim Test Script">
+    <classes>
+      <class name="com.test.CEVCopyClaim"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  
+  
+  
+  
+  <test name="Claims Examiner View Edit Claim Test Script">
+    <classes>
+      <class name="com.test.CEVEditClaim"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  
+  
+   <test name="Claims Examiner View Exit Claim Test Script">
+    <classes>
+      <class name="com.test.CEVExitClaim"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  
+  
+  <test name="Claims Examiner View Move Claim Test Script">
+    <classes>
+      <class name="com.test.CEVMoveClaim"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  
+<test name="Claims Examiner View Delete Claim Test Script">
+    <classes>
+      <class name="com.test.CEVDeleteClaim"/>
+    </classes>
+  </test> <!-- Test -->
+  
+
+
+  
+  <test name="Claims Examiner View Reverse Claim Test Script">
+    <classes>
+      <class name="com.test.CEVSimpleReverseClaim"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  
+  
+
+   <test name="Ending  Test Script">
+    <classes>
+      <class name="com.test.FindNumberOfErrors"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  
+      </suite> <!-- Suite -->

@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="DEMO TEST" configfailurepolicy="skip">
+
+
+<test name="Starting  Test Script">
+    <classes>
+      <class name="com.test.StartingRegressionSuiteExecution"/>
+    </classes>
+  </test> <!-- Test -->
+
+
+
+
+
+  <test name="Carrier Relationship Types Add Test Script">
+    <classes>
+      <class name="com.test.CarrierRelationshipTypesAddTestScript"/>
+    </classes>
+  </test> <!-- Test -->
+  
+   <test name="Carrier Relationship Types Comm Add Test Script">
+    <classes>
+      <class name="com.test.CarrierRelationshipTypesAddComm"/>
+    </classes>
+  </test> <!-- Test -->
+  
+   <test name="Carrier Relationship Types Copy Test Script">
+    <classes>
+      <class name="com.test.CarrierRelationshipTypesCopyTestScript"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  
+  <test name="Carrier Relationship Types Edit Test Script">
+    <classes>
+      <class name="com.test.CarrierRelationshipTypesEditTestScript"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  
+  <test name="Carrier Relationship Types Delete Test Script">
+    <classes>
+      <class name="com.test.CarrierRelationshipTypesDeleteTestScript"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  
+  <test name="Carrier Relationship Types Exit Test Script">
+    <classes>
+      <class name="com.test.CarrierRelationshipTypesExitTestScript"/>
+    </classes>
+  </test> <!-- Test -->
+
+
+
+<test name="Ending  Test Script">
+    <classes>
+      <class name="com.test.FindNumberOfErrors"/>
+    </classes>
+  </test> <!-- Test -->
+
+
+
+
+ 
+  </suite> <!-- Suite -->

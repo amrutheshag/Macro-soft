@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Failed suite [Failed suite [Failed suite [Failed suite [DEMO TEST]]]]]">
+  <test name="Member Accumulator - Add Communication Test Script(failed)(failed)(failed)(failed)(failed)">
+    <classes>
+      <class name="com.test.MemberAccumulatorAddComm">
+        <methods>
+          <include name="MemberAccumulatorAddCommunicationTestScript"/>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- com.test.MemberAccumulatorAddComm -->
+    </classes>
+  </test> <!-- Member Accumulator - Add Communication Test Script(failed)(failed)(failed)(failed)(failed) -->
+</suite> <!-- Failed suite [Failed suite [Failed suite [Failed suite [Failed suite [DEMO TEST]]]]] -->

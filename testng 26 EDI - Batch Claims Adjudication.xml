@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="DEMO TEST" configfailurepolicy="skip">
+
+<test name="Starting  Test Script">
+    <classes>
+      <class name="com.test.StartingRegressionSuiteExecution"/>
+    </classes>
+  </test> <!-- Test -->
+
+  <test name="EDI- Batch Processing Process with Batch No">
+    <classes>
+      <class name="com.test.ProcessClaimsWithBatchNumber"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  
+   <test name="EDI- Batch Processing Process with Disposition">
+    <classes>
+      <class name="com.test.ProcessClaimsWithDisposition"/>
+    </classes>
+  </test> <!-- Test -->
+  
+ 
+
+<test name="EDI- Batch Processing-cancel Process with Batch No">
+    <classes>
+      <class name="com.test.CancelClaimsProcessingWithBatchNumber"/>
+    </classes>
+  </test> <!-- Test -->
+
+
+
+<test name="EDI- Batch Processing-cancel Process with Disposition">
+    <classes>
+      <class name="com.test.CancelClaimsProcessingWithDisposition"/>
+    </classes>
+  </test> <!-- Test -->
+
+
+
+<test name="Ending  Test Script">
+    <classes>
+      <class name="com.test.FindNumberOfErrors"/>
+    </classes>
+  </test> <!-- Test -->
+
+
+
+  
+  </suite> <!-- Suite -->

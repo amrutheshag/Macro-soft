@@ -1,0 +1,287 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="DEMO TEST" configfailurepolicy="skip">
+
+
+
+ <test name="Starting  Test Script">
+    <classes>
+      <class name="com.test.StartingRegressionSuiteExecution"/>
+    </classes>
+  </test> <!-- Test -->
+
+
+
+  
+ <test name="Providers- Add Provider Test Script">
+    <classes>
+      <class name="com.test.ProviderAdd"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  
+  <test name="Providers - Edit Provider Test Script">
+    <classes>
+      <class name="com.test.ProviderEdit"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  
+  <test name="Providers - Copy Provider Test Script">
+    <classes>
+      <class name="com.test.ProviderCopy"/>
+    </classes>
+  </test> <!-- Test -->
+  
+
+<test name="Providers - Add Comm Provider Test Script">
+    <classes>
+      <class name="com.test.ProviderAddComm"/>
+    </classes>
+  </test> <!-- Test -->
+
+
+
+<test name="Providers - Exit Provider Test Script">
+    <classes>
+      <class name="com.test.ProviderExit"/>
+    </classes>
+  </test> <!-- Test -->
+
+
+<test name="Providers - Delete Provider Test Script">
+    <classes>
+      <class name="com.test.ProviderDelete"/>
+    </classes>
+  </test> <!-- Test -->
+
+
+
+
+
+
+
+
+
+
+<test name="Case Managers- Add  Test Script">
+    <classes>
+      <class name="com.test.CaseManagerAdd"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  
+  <test name="Case Managers - Edit Test Script">
+    <classes>
+      <class name="com.test.CaseManagerEdit"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  
+  <test name="Case Managers - Copy  Test Script">
+    <classes>
+      <class name="com.test.CaseManagerCopy"/>
+    </classes>
+  </test> <!-- Test -->
+  
+
+<test name="Case Managers - Add Comm  Test Script">
+    <classes>
+      <class name="com.test.CaseManagerAddComm"/>
+    </classes>
+  </test> <!-- Test -->
+
+
+
+<test name="Case Managers - Exit  Test Script">
+    <classes>
+      <class name="com.test.CaseManagerExit"/>
+    </classes>
+  </test> <!-- Test -->
+
+
+<test name="Case Managers- Delete Test Script">
+    <classes>
+      <class name="com.test.CaseManagerDelete"/>
+    </classes>
+  </test> <!-- Test -->
+
+
+
+
+
+
+
+
+
+<test name="Fee Schedules- Add  Test Script">
+    <classes>
+      <class name="com.test.FeeScheduleAdd"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  
+  <test name="Fee Schedules - Edit Test Script">
+    <classes>
+      <class name="com.test.FeeScheduleEdit"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  
+  <test name="Fee Schedules - Copy  Test Script">
+    <classes>
+      <class name="com.test.FeeScheduleCopy"/>
+    </classes>
+  </test> <!-- Test -->
+  
+
+<test name="Fee Schedules - Add Comm  Test Script">
+    <classes>
+      <class name="com.test.FeeScheduleAddComm"/>
+    </classes>
+  </test> <!-- Test -->
+
+ <test name="Fee Schedules Add Claim Type Query- Add  Test Script- Jira726ClaimTypeAdd">
+    <classes>
+      <class name="com.test.Jira726ClaimTypeAdd"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  
+  <test name="Fee Schedules Add Service Type Query - Edit Test Script-Jira726ServiceTypeAdd">
+    <classes>
+      <class name="com.test.Jira726ServiceTypeAdd"/>
+    </classes>
+  </test> <!-- Test -->
+
+
+<test name="Fee Schedules - Exit  Test Script">
+    <classes>
+      <class name="com.test.FeeScheduleExit"/>
+    </classes>
+  </test> <!-- Test -->
+
+
+<test name="Fee Schedules- Delete Test Script">
+    <classes>
+      <class name="com.test.FeeScheduleDelete"/>
+    </classes>
+  </test> <!-- Test -->
+
+
+
+
+
+
+
+
+
+<test name="TaxPayerAndRate- Add  Test Script">
+    <classes>
+      <class name="com.test.TaxPayerAndRateAdd"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  
+  <test name="TaxPayerAndRate - Edit Test Script">
+    <classes>
+      <class name="com.test.TaxPayerAndRateEdit"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  
+  <test name="TaxPayerAndRate - Copy  Test Script">
+    <classes>
+      <class name="com.test.TaxPayerAndRateCopy"/>
+    </classes>
+  </test> <!-- Test -->
+  
+
+<test name="TaxPayerAndRate - Add Comm  Test Script">
+    <classes>
+      <class name="com.test.TaxPayerAndRateAddComm"/>
+    </classes>
+  </test> <!-- Test -->
+
+
+
+<test name="TaxPayerAndRate - Exit  Test Script">
+    <classes>
+      <class name="com.test.TaxPayerAndRateExit"/>
+    </classes>
+  </test> <!-- Test -->
+
+
+<test name="TaxPayerAndRate- Delete Test Script">
+    <classes>
+      <class name="com.test.TaxPayerAndRateDelete"/>
+    </classes>
+  </test> <!-- Test -->
+
+
+
+
+
+
+
+
+
+
+ 
+ <test name="Late Claim Interest Rate- Add  Test Script">
+    <classes>
+      <class name="com.test.LateClaimInterestRateAdd"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  
+  <test name="Late Claim Interest Rate - Edit Test Script">
+    <classes>
+      <class name="com.test.LateClaimInterestRateEdit"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  
+  <test name="Late Claim Interest Rate - Copy  Test Script">
+    <classes>
+      <class name="com.test.LateClaimInterestRateCopy"/>
+    </classes>
+  </test> <!-- Test -->
+  
+
+<test name="Late Claim Interest Rate- Add Comm  Test Script">
+    <classes>
+      <class name="com.test.LateClaimInterestRateAddComm"/>
+    </classes>
+  </test> <!-- Test -->
+
+
+
+<test name="Late Claim Interest Rate - Exit  Test Script">
+    <classes>
+      <class name="com.test.LateClaimInterestRateExit"/>
+    </classes>
+  </test> <!-- Test -->
+
+
+<test name="Late Claim Interest Rate- Delete Test Script">
+    <classes>
+      <class name="com.test.LateClaimInterestRateDelete"/>
+    </classes>
+  </test> <!-- Test -->
+
+ 
+ 
+
+   <test name="Ending  Test Script">
+    <classes>
+      <class name="com.test.FindNumberOfErrors"/>
+    </classes>
+  </test> <!-- Test -->
+ 
+ 
+ 
+ 
+ 
+  </suite> <!-- Suite -->
+  

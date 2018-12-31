@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="DEMO TEST" configfailurepolicy="skip">
+
+  <test name="Communication Case Types Add Test Script">
+    <classes>
+      <class name="com.test.CommunicationCaseTypesAddTestScript"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  <test name="Communication Case Types Add Comm Test Script">
+    <classes>
+      <class name="com.test.CommunicationCaseTypesAddCommTestScript"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  
+   <test name="Communication Case Types Copy Test Script">
+    <classes>
+      <class name="com.test.CommunicationCaseTypesCopyTestScript"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  
+  <test name="Communication Case Types Edit Test Script">
+    <classes>
+      <class name="com.test.CommunicationCaseTypesEditTestScript"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  
+  <test name="Communication Case Types Delete Test Script">
+    <classes>
+      <class name="com.test.CommunicationCaseTypesDeleteTestScript"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  
+  <test name="Communication Case Types Exit Test Script">
+    <classes>
+      <class name="com.test.CommunicationCaseTypesExitTestScript"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  <test name="Communication Case Statuses Add Test Script">
+    <classes>
+      <class name="com.test.CommunicationCaseStatusesAddTestScript"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  <test name="Communication Case Statuses Add Comm Test Script">
+    <classes>
+      <class name="com.test.CommunicationCaseStatusesAddCommTestScript"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  
+   <test name="Communication Case Statuses Copy Test Script">
+    <classes>
+      <class name="com.test.CommunicationCaseStatusesCopyTestScript"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  
+  <test name="Communication Case Statuses Edit Test Script">
+    <classes>
+      <class name="com.test.CommunicationCaseStatusesEditTestScript"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  
+  <test name="Communication Case Statuses Delete Test Script">
+    <classes>
+      <class name="com.test.CommunicationCaseStatusesDeleteTestScript"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  
+  <test name="Communication Case Statuses Exit Test Script">
+    <classes>
+      <class name="com.test.CommunicationCaseStatusesExitTestScript"/>
+    </classes>
+  </test> <!-- Test -->
+  
+   <test name="Communication Case Priorities Add Test Script">
+    <classes>
+      <class name="com.test.CommunicationCasePrioritiesAddTestScript"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  <test name="Communication Case Priorities Add Comm Test Script">
+    <classes>
+      <class name="com.test.CommunicationCasePrioritiesAddCommTestScript"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  
+  
+  
+   <test name="Communication Case Priorities Copy Test Script">
+    <classes>
+      <class name="com.test.CommunicationCasePrioritiesCopyTestScript"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  
+  <test name="Communication Case Priorities Edit Test Script">
+    <classes>
+      <class name="com.test.CommunicationCasePrioritiesEditTestScript"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  
+  <test name="Communication Case Priorities Delete Test Script">
+    <classes>
+      <class name="com.test.CommunicationCasePrioritiesDeleteTestScript"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  
+  <test name="Communication Case Priorities Exit Test Script">
+    <classes>
+      <class name="com.test.CommunicationCasePrioritiesExitTestScript"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  <test name="Journal Contact Medias Add Test Script">
+    <classes>
+      <class name="com.test.JournalContactMediasAddTestScript"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  <test name="Journal Contact Medias Add Comm Test Script">
+    <classes>
+      <class name="com.test.JournalContactMediasAddCommTestScript"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  
+   <test name="Journal Contact Medias Copy Test Script">
+    <classes>
+      <class name="com.test.JournalContactMediasCopyTestScript"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  
+  <test name="Journal Contact Medias Edit Test Script">
+    <classes>
+      <class name="com.test.JournalContactMediasEditTestScript"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  
+  <test name="Journal Contact Medias Delete Test Script">
+    <classes>
+      <class name="com.test.JournalContactMediasDeleteTestScript"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  
+  <test name="Journal Contact Medias Exit Test Script">
+    <classes>
+      <class name="com.test.JournalContactMediasExitTestScript"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  <test name="Journal Note Types Add Test Script">
+    <classes>
+      <class name="com.test.JournalNoteTypesAddTestScript"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  <test name="Journal Note Types Add Comm Test Script">
+    <classes>
+      <class name="com.test.JournalNoteTypesAddCommTestScript"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  
+   <test name="Journal Note Types Copy Test Script">
+    <classes>
+      <class name="com.test.JournalNoteTypesCopyTestScript"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  
+  <test name="Journal Note Types Edit Test Script">
+    <classes>
+      <class name="com.test.JournalNoteTypesEditTestScript"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  
+  <test name="Journal Note Types Delete Test Script">
+    <classes>
+      <class name="com.test.JournalNoteTypesDeleteTestScript"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  
+  <test name="Journal Note Types Exit Test Script">
+    <classes>
+      <class name="com.test.JournalNoteTypesExitTestScript"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  
+
+  
+  </suite> <!-- Suite -->

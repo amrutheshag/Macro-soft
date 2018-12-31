@@ -1,0 +1,18 @@
+
+java -cp "C:\Users\cn151315\Documents\VaniTest\RiskManager\lib\*"; "C:\Users\cn151315\Documents\VaniTest\RiskManager\bin" org.testng.TestNG testng.xml
+
+pause
+
+
+class path--
+C:\Users\cn151315\Documents\VaniTest\Risk Manager\build\classes\memberActivity
+
+java -classpath C:\Users\cn151315\Documents\VaniTest\RiskManager\lib\*; C:\Users\cn151315\Documents\VaniTest\RiskManager\build\classes\memberActivity org.testng.TestNG testng.xml
+
+
+cd C:\Workspace\projectname 
+
+java -cp C:\Workspace\projectname\lib*;C:\Workspace\projectname\bin org.testng.TestNG testng.xml
+
+
+java -cp C:\Users\cn151315\Documents\VaniTest\Risk Manager\lib\*; C:\Users\cn151315\Documents\VaniTest\Risk Manger\build\classses\memberActivity org.testng.TestNG testng.xml

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="DEMO TEST" configfailurepolicy="skip">
+
+
+
+<test name="Starting  Test Script">
+    <classes>
+      <class name="com.test.StartingRegressionSuiteExecution"/>
+    </classes>
+  </test> <!-- Test -->
+
+
+
+  <test name="Member Accumulators - Edit Test Script">
+    <classes>
+      <class name="com.test.MemberAccumulatorEdit"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  
+   <test name="Member Accumulator - Add Communication Test Script">
+    <classes>
+      <class name="com.test.MemberAccumulatorAddComm"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  <test name="Member Accumulator - Exit Test Script">
+    <classes>
+      <class name="com.test.MemberAccumulatorExit"/>
+    </classes>
+  </test> <!-- Test -->
+  
+ <test name="Ending  Test Script">
+    <classes>
+      <class name="com.test.FindNumberOfErrors"/>
+    </classes>
+  </test> <!-- Test -->
+
+ 
+  
+  </suite> <!-- Suite -->
+  

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="DEMO TEST" configfailurepolicy="skip">
+
+  <test name="Starting  Test Script">
+    <classes>
+      <class name="com.test.StartingRegressionSuiteExecution"/>
+    </classes>
+  </test> <!-- Test -->
+  
+ <test name="My Case History- Add  Test Script">
+    <classes>
+      <class name="com.test.MyCaseHistoryAdd"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  
+  <test name="My Open Cases for FollowUp - Edit Test Script">
+    <classes>
+      <class name="com.test.MyCaseHistoryEdit"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  
+  <test name="My Open Cases for FollowUp - Copy Test Script">
+    <classes>
+      <class name="com.test.MyCaseHistoryCopy"/>
+    </classes>
+  </test> <!-- Test -->
+  
+
+
+
+<test name="My Open Cases for FollowUp- Exit  Test Script">
+    <classes>
+      <class name="com.test.MyCaseHistoryExit"/>
+    </classes>
+  </test> <!-- Test -->
+
+
+<test name="My Open Cases for FollowUp- Delete  Test Script">
+    <classes>
+      <class name="com.test.MyCaseHistoryDelete"/>
+    </classes>
+  </test> <!-- Test -->
+
+<test name="Ending  Test Script">
+    <classes>
+      <class name="com.test.FindNumberOfErrors"/>
+    </classes>
+  </test> <!-- Test -->
+
+
+ 
+  </suite> <!-- Suite -->

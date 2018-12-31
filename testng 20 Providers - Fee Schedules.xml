@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="DEMO TEST" configfailurepolicy="skip">
+
+  <test name="Starting  Test Script">
+    <classes>
+      <class name="com.test.StartingRegressionSuiteExecution"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  
+ <test name="Fee Schedules- Add  Test Script">
+    <classes>
+      <class name="com.test.FeeScheduleAdd"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  
+  <test name="Fee Schedules - Edit Test Script">
+    <classes>
+      <class name="com.test.FeeScheduleEdit"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  
+  <test name="Fee Schedules - Copy  Test Script">
+    <classes>
+      <class name="com.test.FeeScheduleCopy"/>
+    </classes>
+  </test> <!-- Test -->
+  
+
+<test name="Fee Schedules - Add Comm  Test Script">
+    <classes>
+      <class name="com.test.FeeScheduleAddComm"/>
+    </classes>
+  </test> <!-- Test -->
+
+
+
+<test name="Fee Schedules - Exit  Test Script">
+    <classes>
+      <class name="com.test.FeeScheduleExit"/>
+    </classes>
+  </test> <!-- Test -->
+
+
+<test name="Fee Schedules- Delete Test Script">
+    <classes>
+      <class name="com.test.FeeScheduleDelete"/>
+    </classes>
+  </test> <!-- Test -->
+
+
+<test name="Ending  Test Script">
+    <classes>
+      <class name="com.test.FindNumberOfErrors"/>
+    </classes>
+  </test> <!-- Test -->
+
+
+ 
+  </suite> <!-- Suite -->

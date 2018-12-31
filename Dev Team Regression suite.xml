@@ -1,0 +1,3620 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="DEMO TEST" configfailurepolicy="skip">
+
+
+
+ <test name="Starting  Test Script">
+    <classes>
+      <class name="com.test.StartingRegressionSuiteExecution"/>
+    </classes>
+  </test> <!-- Test -->
+
+
+
+ <test name="Providers- Add Provider for Members Test Script">
+    <classes>
+      <class name="com.test.ProviderAddForMembers"/>
+    </classes>
+  </test> <!-- Test -->
+
+
+  
+ <test name="Members- Add Member Test Script">
+    <classes>
+      <class name="com.test.MembersAddMember"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  
+  <test name="Members- Add Comm  Test Script">
+    <classes>
+      <class name="com.test.MembersAddCommunication"/>
+    </classes>
+  </test> <!-- Test -->
+    
+  
+  <test name="Members- Edit Member Test Script">
+    <classes>
+      <class name="com.test.MembersEditMember"/>
+    </classes>
+  </test> <!-- Test -->
+  
+   
+  <test name="Members- Copy Member Test Script">
+    <classes>
+      <class name="com.test.MembersCopyMember"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  
+  <test name="Members- Exit Member Test Script">
+    <classes>
+      <class name="com.test.MembersExitMember"/>
+    </classes>
+  </test> <!-- Test -->
+
+ 
+ 
+
+<test name="Members- Create  Test Data Script">
+    <classes>
+      <class name="com.test.CreateTestData"/>
+    </classes>
+  </test> <!-- Test -->
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <test name="Member's Authorizations Add Test Script">
+    <classes>
+      <class name="com.test.MemberAuthAdd"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  
+   <test name="Member's Authorizations Add Communication Test Script">
+    <classes>
+      <class name="com.test.MemberAuthAddCommunication"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  <test name="Member's Authorizations Copy Test Script">
+    <classes>
+      <class name="com.test.MemberAuthCopy"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  
+<test name="Member's Authorizations Edit Test Script">
+    <classes>
+      <class name="com.test.MemberAuthEdit"/>
+    </classes>
+  </test> <!-- Test -->
+  
+<test name="Member's Authorizations Exit Test Script">
+    <classes>
+      <class name="com.test.MemberAuthExit"/>
+    </classes>
+  </test> <!-- Test -->
+  
+<test name="Member's Authorizations Validate Test Script">
+    <classes>
+      <class name="com.test.MemberAuthValidate"/>
+    </classes>
+  </test> <!-- Test -->
+  
+
+  <test name="Member's Authorizations Delete Test Script">
+    <classes>
+      <class name="com.test.MemberAuthDelete"/>
+    </classes>
+  </test> <!-- Test -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+ <test name="AuthorizationsExaminer View - Add Test Script">
+    <classes>
+      <class name="com.test.AuthorizationExaminerViewAdd"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  
+   <test name="Authorizations Examiner View-  Add Communication Test Script">
+    <classes>
+      <class name="com.test.AuthorizationExaminerViewAddComm"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  <test name="Authorizations Examiner View- Copy Test Script">
+    <classes>
+      <class name="com.test.AuthorizationExaminerViewCopy"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  
+<test name="Authorizations Examiner View - Edit Test Script">
+    <classes>
+      <class name="com.test.AuthorizationExaminerViewEdit"/>
+    </classes>
+  </test> <!-- Test -->
+  
+<test name="Authorizations Examiner View - Exit Test Script">
+    <classes>
+      <class name="com.test.AuthorizationExaminerViewExit"/>
+    </classes>
+  </test> <!-- Test -->
+  
+<test name="Authorizations Examiner View - Validate Test Script">
+    <classes>
+      <class name="com.test.AuthorizationExaminerViewValidate"/>
+    </classes>
+  </test> <!-- Test -->
+  
+
+  <test name="Authorizations Examiner View Delete Test Script">
+    <classes>
+      <class name="com.test.AuthorizationExaminerViewDelete"/>
+    </classes>
+  </test> <!-- Test -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+ <test name="Member's Claims Add Claim Test Script">
+    <classes>
+      <class name="com.test.MCAddMultipleClaims"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  
+  <test name="Member's Claims Copy Claim Test Script">
+    <classes>
+      <class name="com.test.MCCopyMultipleClaims"/>
+    </classes>
+  </test> <!-- Test -->
+  
+<test name="Member's Claims Adjudicate Claim Test Script">
+    <classes>
+      <class name="com.test.MCAdjudicateMultipleClaims"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  
+   <test name="Member's Claims Add Communication Claim Test Script">
+    <classes>
+      <class name="com.test.MCAddCommunicationMultipleClaims"/>
+    </classes>
+  </test> <!-- Test -->
+
+
+  
+  
+  
+  <test name="Member's Claims Edit Claim Test Script">
+    <classes>
+      <class name="com.test.MCEditMultipleClaims"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  
+   <test name="Member's Claims Exit Claim Test Script">
+    <classes>
+      <class name="com.test.MCExitMultipleClaims"/>
+    </classes>
+  </test> <!-- Test -->
+  
+    
+  <test name="Member's Claims New Member Test Script">
+    <classes>
+      <class name="com.test.MCNewMemberMultipleClaims"/>
+    </classes>
+  </test> <!-- Test -->
+  
+   <test name="Member's Claims Move Claim Test Script">
+    <classes>
+      <class name="com.test.MCMoveMultipleClaims"/>
+    </classes>
+  </test> <!-- Test -->
+
+  <test name="Member's Claims Delete Claim Test Script">
+    <classes>
+      <class name="com.test.MCDeleteMultipleClaims"/>
+    </classes>
+  </test> <!-- Test -->
+
+
+
+
+
+
+
+ <test name="Claims Examiner View Add Claim Test Script">
+    <classes>
+      <class name="com.test.CEVAddClaim"/>
+    </classes>
+  </test> <!-- Test -->
+
+
+  <test name="Claims Examiner View Adjudicate Claim Test Script">
+    <classes>
+      <class name="com.test.CEVAdjudicateClaim"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  
+   <test name="Claims Examiner View Add Communication Claim Test Script">
+    <classes>
+      <class name="com.test.CEVAddCommunication"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  
+ 
+  
+  
+  <test name="Claims Examiner View Copy Claim Test Script">
+    <classes>
+      <class name="com.test.CEVCopyClaim"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  
+  
+  
+  
+  <test name="Claims Examiner View Edit Claim Test Script">
+    <classes>
+      <class name="com.test.CEVEditClaim"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  
+  
+   <test name="Claims Examiner View Exit Claim Test Script">
+    <classes>
+      <class name="com.test.CEVExitClaim"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  
+  
+  <test name="Claims Examiner View Move Claim Test Script">
+    <classes>
+      <class name="com.test.CEVMoveClaim"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  
+
+
+
+  <test name="Claims Examiner View Delete Claim Test Script">
+    <classes>
+      <class name="com.test.CEVDeleteClaim"/>
+    </classes>
+  </test> <!-- Test -->
+  
+
+
+
+
+<test name="Members- Delete Member Test Script">
+    <classes>
+      <class name="com.test.MembersDeleteMember"/>
+    </classes>
+  </test> <!-- Test -->
+  
+
+
+
+
+
+
+
+
+
+ <test name="Providers- Add Provider Test Script">
+    <classes>
+      <class name="com.test.ProviderAdd"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  
+  <test name="Providers - Edit Provider Test Script">
+    <classes>
+      <class name="com.test.ProviderEdit"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  
+  <test name="Providers - Copy Provider Test Script">
+    <classes>
+      <class name="com.test.ProviderCopy"/>
+    </classes>
+  </test> <!-- Test -->
+  
+
+<test name="Providers - Add Comm Provider Test Script">
+    <classes>
+      <class name="com.test.ProviderAddComm"/>
+    </classes>
+  </test> <!-- Test -->
+
+
+
+<test name="Providers - Exit Provider Test Script">
+    <classes>
+      <class name="com.test.ProviderExit"/>
+    </classes>
+  </test> <!-- Test -->
+
+
+<test name="Providers - Delete Provider Test Script">
+    <classes>
+      <class name="com.test.ProviderDelete"/>
+    </classes>
+  </test> <!-- Test -->
+
+
+
+
+
+
+
+
+
+ <test name="Case Managers- Add  Test Script">
+    <classes>
+      <class name="com.test.CaseManagerAdd"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  
+  <test name="Case Managers - Edit Test Script">
+    <classes>
+      <class name="com.test.CaseManagerEdit"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  
+  <test name="Case Managers - Copy  Test Script">
+    <classes>
+      <class name="com.test.CaseManagerCopy"/>
+    </classes>
+  </test> <!-- Test -->
+  
+
+<test name="Case Managers - Add Comm  Test Script">
+    <classes>
+      <class name="com.test.CaseManagerAddComm"/>
+    </classes>
+  </test> <!-- Test -->
+
+
+
+<test name="Case Managers - Exit  Test Script">
+    <classes>
+      <class name="com.test.CaseManagerExit"/>
+    </classes>
+  </test> <!-- Test -->
+
+
+<test name="Case Managers- Delete Test Script">
+    <classes>
+      <class name="com.test.CaseManagerDelete"/>
+    </classes>
+  </test> <!-- Test -->
+
+
+
+
+
+
+
+
+
+
+  
+ <test name="Fee Schedules- Add  Test Script">
+    <classes>
+      <class name="com.test.FeeScheduleAdd"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  
+  <test name="Fee Schedules - Edit Test Script">
+    <classes>
+      <class name="com.test.FeeScheduleEdit"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  
+  <test name="Fee Schedules - Copy  Test Script">
+    <classes>
+      <class name="com.test.FeeScheduleCopy"/>
+    </classes>
+  </test> <!-- Test -->
+  
+
+<test name="Fee Schedules - Add Comm  Test Script">
+    <classes>
+      <class name="com.test.FeeScheduleAddComm"/>
+    </classes>
+  </test> <!-- Test -->
+
+
+
+<test name="Fee Schedules - Exit  Test Script">
+    <classes>
+      <class name="com.test.FeeScheduleExit"/>
+    </classes>
+  </test> <!-- Test -->
+
+<test name="Fee Schedules Add Claim Type Query- Add  Test Script">
+    <classes>
+      <class name="com.test.Jira726ClaimTypeAdd"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  
+  <test name="Fee Schedules Add Service Type Query - Edit Test Script">
+    <classes>
+      <class name="com.test.Jira726ServiceTypeAdd"/>
+    </classes>
+  </test> <!-- Test -->
+
+
+<test name="Fee Schedules- Delete Test Script">
+    <classes>
+      <class name="com.test.FeeScheduleDelete"/>
+    </classes>
+  </test> <!-- Test -->
+
+
+
+
+
+
+
+
+
+
+ 
+ <test name="-TaxPayerAndRate Add  Test Script">
+    <classes>
+      <class name="com.test.TaxPayerAndRateAdd"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  
+
+<test name="Tax Payers and Rates Claim Type Query - Edit Test Script Jira726ClaimTypeEdit">
+    <classes>
+      <class name="com.test.Jira726ClaimTypeEdit"/>
+    </classes>
+  </test> <!-- Test -->
+  
+
+
+
+<test name=" Tax Payers and Rates Service Type Query - Edit Test Script- Jira726ServiceTypeEdit">
+    <classes>
+      <class name="com.test.Jira726ServiceTypeEdit"/>
+    </classes>
+  </test> <!-- Test -->
+
+
+
+  <test name="TaxPayerAndRate - Edit Test Script">
+    <classes>
+      <class name="com.test.TaxPayerAndRateEdit"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  
+  <test name="TaxPayerAndRate - Copy  Test Script">
+    <classes>
+      <class name="com.test.TaxPayerAndRateCopy"/>
+    </classes>
+  </test> <!-- Test -->
+  
+
+<test name="TaxPayerAndRate - Add Comm  Test Script">
+    <classes>
+      <class name="com.test.TaxPayerAndRateAddComm"/>
+    </classes>
+  </test> <!-- Test -->
+
+
+
+<test name="TaxPayerAndRate - Exit  Test Script">
+    <classes>
+      <class name="com.test.TaxPayerAndRateExit"/>
+    </classes>
+  </test> <!-- Test -->
+
+
+
+
+
+<test name="TaxPayerAndRate- Delete Test Script">
+    <classes>
+      <class name="com.test.TaxPayerAndRateDelete"/>
+    </classes>
+  </test> <!-- Test -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+ <test name="Late Claim Interest Rate- Add  Test Script">
+    <classes>
+      <class name="com.test.LateClaimInterestRateAdd"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  
+  <test name="Late Claim Interest Rate - Edit Test Script">
+    <classes>
+      <class name="com.test.LateClaimInterestRateEdit"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  
+  <test name="Late Claim Interest Rate - Copy  Test Script">
+    <classes>
+      <class name="com.test.LateClaimInterestRateCopy"/>
+    </classes>
+  </test> <!-- Test -->
+  
+
+<test name="Late Claim Interest Rate- Add Comm  Test Script">
+    <classes>
+      <class name="com.test.LateClaimInterestRateAddComm"/>
+    </classes>
+  </test> <!-- Test -->
+
+
+
+<test name="Late Claim Interest Rate - Exit  Test Script">
+    <classes>
+      <class name="com.test.LateClaimInterestRateExit"/>
+    </classes>
+  </test> <!-- Test -->
+
+
+<test name="Late Claim Interest Rate- Delete Test Script">
+    <classes>
+      <class name="com.test.LateClaimInterestRateDelete"/>
+    </classes>
+  </test> <!-- Test -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+ <test name="Payers- Add Payer Test Script">
+    <classes>
+      <class name="com.test.PayerListingAdd"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  
+  <test name="Payers - Edit Payer Test Script">
+    <classes>
+      <class name="com.test.PayerListingEdit"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  
+  <test name="Payers - Copy Payer Test Script">
+    <classes>
+      <class name="com.test.PayerListingCopy"/>
+    </classes>
+  </test> <!-- Test -->
+  
+
+<test name="Payers - Add Comm Payer Test Script">
+    <classes>
+      <class name="com.test.PayerListingAddComm"/>
+    </classes>
+  </test> <!-- Test -->
+
+
+
+<test name="Payers - Exit Payer Test Script">
+    <classes>
+      <class name="com.test.PayerListingExit"/>
+    </classes>
+  </test> <!-- Test -->
+
+
+<test name="Payers - Delete Payer Test Script">
+    <classes>
+      <class name="com.test.PayerListingDelete"/>
+    </classes>
+  </test> <!-- Test -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+ <test name="Benefit Plan- Add  Test Script">
+    <classes>
+      <class name="com.test.BenefitPlanAdd"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  
+  <test name="Benefit Plan - Edit Test Script">
+    <classes>
+      <class name="com.test.BenefitPlanEdit"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  
+  <test name="Benefit Plan - Copy Test Script">
+    <classes>
+      <class name="com.test.BenefitPlanCopy"/>
+    </classes>
+  </test> <!-- Test -->
+  
+
+<test name="Benefit Plan - Add Comm Test Script">
+    <classes>
+      <class name="com.test.BenefitPlanAddComm"/>
+    </classes>
+  </test> <!-- Test -->
+
+<test name="Benefit Plan - Add with Copy and Add Premium Notes Test Script">
+    <classes>
+      <class name="com.test.BenefitPlanAddWithCopyAddPremiumNotes"/>
+    </classes>
+  </test> <!-- Test -->
+
+
+<test name="Benefit Plan- Exit  Test Script">
+    <classes>
+      <class name="com.test.BenefitPlanExit"/>
+    </classes>
+  </test> <!-- Test -->
+
+<test name="Benefit Plan Copy Claim Type Query - Copy Test Script">
+    <classes>
+      <class name="com.test.Jira726ClaimTypeCopy"/>
+    </classes>
+  </test> <!-- Test -->
+  
+
+
+
+<test name="Benefit Plan Copy Service Type Query - Copy Test Script">
+    <classes>
+      <class name="com.test.Jira726ServiceTypeCopy"/>
+    </classes>
+  </test> <!-- Test -->
+
+
+
+
+
+
+
+<test name=" Jira726 Delete Copy Records In Benefit Plan Claim And Service Queries">
+    <classes>
+      <class name="com.test.Jira726DeleteCopyRecordsInBenefitPlanClaimAndServiceQueries"/>
+    </classes>
+  </test> <!-- Test -->
+
+<test name="Benefit Plan - Delete  Test Script">
+    <classes>
+      <class name="com.test.BenefitPlanDelete"/>
+    </classes>
+  </test> <!-- Test -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+ <test name="Benefit Class- Add  Test Script">
+    <classes>
+      <class name="com.test.BenefitClassAdd"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  
+  <test name="Benefit Class - Edit Test Script">
+    <classes>
+      <class name="com.test.BenefitClassEdit"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  
+  <test name="Benefit Class - Copy Test Script">
+    <classes>
+      <class name="com.test.BenefitClassCopy"/>
+    </classes>
+  </test> <!-- Test -->
+  
+
+<test name="Benefit Class - Add Comm Test Script">
+    <classes>
+      <class name="com.test.BenefitClassAddComm"/>
+    </classes>
+  </test> <!-- Test -->
+
+
+
+<test name="Benefit Class- Exit  Test Script">
+    <classes>
+      <class name="com.test.BenefitClassExit"/>
+    </classes>
+  </test> <!-- Test -->
+
+
+
+<test name="Benefit Class - Delete  Test Script">
+    <classes>
+      <class name="com.test.BenefitClassDelete"/>
+    </classes>
+  </test> <!-- Test -->
+
+
+
+
+
+
+
+
+
+ <test name="Benefit Product- Add  Test Script">
+    <classes>
+      <class name="com.test.BenefitProductAdd"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  
+  <test name="Benefit Product - Edit Test Script">
+    <classes>
+      <class name="com.test.BenefitProductEdit"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  
+  <test name="Benefit Product - Copy Test Script">
+    <classes>
+      <class name="com.test.BenefitProductCopy"/>
+    </classes>
+  </test> <!-- Test -->
+  
+
+<test name="Benefit Product - Add Comm Test Script">
+    <classes>
+      <class name="com.test.BenefitProductAddComm"/>
+    </classes>
+  </test> <!-- Test -->
+
+
+
+<test name="Benefit Product- Exit  Test Script">
+    <classes>
+      <class name="com.test.BenefitProductExit"/>
+    </classes>
+  </test> <!-- Test -->
+
+
+<test name="Benefit Product - Delete  Test Script">
+    <classes>
+      <class name="com.test.BenefitProductDelete"/>
+    </classes>
+  </test> <!-- Test -->
+
+
+
+
+
+
+
+
+
+
+  
+ <test name="Tier Copay Schedule- Add  Test Script">
+    <classes>
+      <class name="com.test.TierCopayscheduleAdd"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  
+  <test name="Tier Copay Schedule - Edit Test Script">
+    <classes>
+      <class name="com.test.TierCopayScheduleEdit"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  
+  <test name="Tier Copay Schedule - Copy Test Script">
+    <classes>
+      <class name="com.test.TierCopayScheduleCopy"/>
+    </classes>
+  </test> <!-- Test -->
+  
+
+<test name="Tier Copay Schedule - Add Comm Test Script">
+    <classes>
+      <class name="com.test.TierCopayScheduleAddComm"/>
+    </classes>
+  </test> <!-- Test -->
+
+
+
+<test name="Tier Copay Schedule- Exit  Test Script">
+    <classes>
+      <class name="com.test.TierCopayScheduleExit"/>
+    </classes>
+  </test> <!-- Test -->
+
+
+<test name="Tier Copay Schedule - Delete  Test Script">
+    <classes>
+      <class name="com.test.TierCopayScheduleDelete"/>
+    </classes>
+  </test> <!-- Test -->
+
+
+
+
+
+
+
+
+
+
+
+
+  <test name="Employer Groups Add Script">
+    <classes>
+      <class name="com.test.EmployerGroupsAddTestScript"/>
+    </classes>
+  </test> <!-- Test -->
+  
+   <test name="Employer Groups Comm Add Script">
+    <classes>
+      <class name="com.test.EmployerGroupsAddCommTestScript"/>
+    </classes>
+  </test> <!-- Test -->
+  
+   <test name="Employer Groups Copy Script">
+    <classes>
+      <class name="com.test.EmployerGroupsCopyTestScript"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  
+  <test name="Employer Groups Edit Script">
+    <classes>
+      <class name="com.test.EmployerGroupsEditTestScript"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  
+  <test name="Employer Groups Delete Script">
+    <classes>
+      <class name="com.test.EmployerGroupsDeleteTestScript"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  
+  <test name="Employer Groups Exit Script">
+    <classes>
+      <class name="com.test.EmployerGroupsExitTestScript"/>
+    </classes>
+  </test> <!-- Test -->
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+  <test name="North American Industrial Classifications Add Test Script">
+    <classes>
+      <class name="com.test.NorthAmericanIndustrialClassificationsAddTestScript"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  <test name="North American Industrial Classifications Add Comm Test Script">
+    <classes>
+      <class name="com.test.NorthAmericanIndustrialClassificationsAddCommTestScript"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  
+   <test name="North American Industrial Classifications Copy Test Script">
+    <classes>
+      <class name="com.test.NorthAmericanIndustrialClassificationsCopyTestScript"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  
+  <test name="North American Industrial Classifications Edit Test Script">
+    <classes>
+      <class name="com.test.NorthAmericanIndustrialClassificationsEditTestScript"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  
+  <test name="North American Industrial Classifications Delete Test Script">
+    <classes>
+      <class name="com.test.NorthAmericanIndustrialClassificationsDeleteTestScript"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  
+  <test name="North American Industrial Classifications Exit Test Script">
+    <classes>
+      <class name="com.test.NorthAmericanIndustrialClassificationsExitTestScript"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  
+ 
+  
+
+
+
+
+
+
+
+
+
+
+  <test name="Legal Representives Add Test Script">
+    <classes>
+      <class name="com.test.LegalRepresentivesAddTestScript"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  <test name="Legal Representives Add Comm Test Script">
+    <classes>
+      <class name="com.test.LegalRepresentivesAddCommTestScript"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  
+   <test name="Legal Representives Copy Test Script">
+    <classes>
+      <class name="com.test.LegalRepresentivesCopyTestScript"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  
+  <test name="Legal Representives Edit Test Script">
+    <classes>
+      <class name="com.test.LegalRepresentivesEditTestScript"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  
+  <test name="Legal Representives Delete Test Script">
+    <classes>
+      <class name="com.test.LegalRepresentivesDeleteTestScript"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  
+  <test name="Legal Representives Exit Test Script">
+    <classes>
+      <class name="com.test.LegalRepresentivesExitTestScript"/>
+    </classes>
+  </test> <!-- Test -->
+  
+
+
+
+
+
+
+
+
+
+
+
+<test name="Carriers Add Test Script">
+    <classes>
+      <class name="com.test.CarriersAddTestScript"/>
+    </classes>
+  </test> <!-- Test -->
+  
+ <test name="Carriers Add Comm Test Script">
+    <classes>
+      <class name="com.test.CarriersAddCommTestScript"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  
+   <test name="Carriers Copy Test Script">
+    <classes>
+      <class name="com.test.CarriersCopyTestScript"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  
+  <test name="Carriers Edit Test Script">
+    <classes>
+      <class name="com.test.CarriersEditTestScript"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  
+  <test name="Carriers Delete Test Script">
+    <classes>
+      <class name="com.test.CarriersDeleteTestScript"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  
+  <test name="Carriers Exit Test Script">
+    <classes>
+      <class name="com.test.CarriersExitTestScript"/>
+    </classes>
+  </test> <!-- Test -->
+
+
+
+
+
+
+
+
+
+
+  <test name="Carrier Relationship Types Add Test Script">
+    <classes>
+      <class name="com.test.CarrierRelationshipTypesAddTestScript"/>
+    </classes>
+  </test> <!-- Test -->
+  
+   <test name="Carrier Relationship Types Comm Add Test Script">
+    <classes>
+      <class name="com.test.CarrierRelationshipTypesAddComm"/>
+    </classes>
+  </test> <!-- Test -->
+  
+   <test name="Carrier Relationship Types Copy Test Script">
+    <classes>
+      <class name="com.test.CarrierRelationshipTypesCopyTestScript"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  
+  <test name="Carrier Relationship Types Edit Test Script">
+    <classes>
+      <class name="com.test.CarrierRelationshipTypesEditTestScript"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  
+  <test name="Carrier Relationship Types Delete Test Script">
+    <classes>
+      <class name="com.test.CarrierRelationshipTypesDeleteTestScript"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  
+  <test name="Carrier Relationship Types Exit Test Script">
+    <classes>
+      <class name="com.test.CarrierRelationshipTypesExitTestScript"/>
+    </classes>
+  </test> <!-- Test -->
+
+
+
+
+
+
+
+
+
+ <test name="Carrier Coverage Types Add Test Script">
+    <classes>
+      <class name="com.test.CarrierCoverageTypesAddTestScript"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  <test name="Carrier Coverage Types Comm Add Test Script">
+    <classes>
+      <class name="com.test.CarrierCoverageTypesAddComm"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  
+   <test name="Carrier Coverage Types Copy Test Script">
+    <classes>
+      <class name="com.test.CarrierCoverageTypesCopyTestScript"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  
+  <test name="Carrier Coverage Types Edit Test Script">
+    <classes>
+      <class name="com.test.CarrierCoverageTypesEditTestScript"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  
+  <test name="Carrier Coverage Types Delete Test Script">
+    <classes>
+      <class name="com.test.CarrierCoverageTypesDeleteTestScript"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  
+  <test name="Carrier Coverage Types Exit Test Script">
+    <classes>
+      <class name="com.test.CarrierCoverageTypesExitTestScript"/>
+    </classes>
+  </test> <!-- Test -->
+   
+
+
+
+  
+ 
+  
+  
+  
+
+
+
+
+
+
+  
+ <test name="My Open Cases- Add  Test Script">
+    <classes>
+      <class name="com.test.MyOpenCasesListingAdd"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  
+  <test name="My Open Cases - Edit Test Script">
+    <classes>
+      <class name="com.test.MyOpenCasesListingEdit"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  
+  <test name="My Open Cases - Copy Test Script">
+    <classes>
+      <class name="com.test.MyOpenCasesListingCopy"/>
+    </classes>
+  </test> <!-- Test -->
+  
+
+
+
+<test name="My Open Cases- Exit  Test Script">
+    <classes>
+      <class name="com.test.MyOpenCasesListingExit"/>
+    </classes>
+  </test> <!-- Test -->
+
+<test name="My Open Cases- Delete  Test Script">
+    <classes>
+      <class name="com.test.MyOpenCasesListingDelete"/>
+    </classes>
+  </test> <!-- Test -->
+
+
+
+
+
+
+
+
+
+
+  
+ <test name="My Open Cases for FollowUp- Add  Test Script">
+    <classes>
+      <class name="com.test.MyOpenCasesForFollowUpAdd"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  
+  <test name="My Open Cases for FollowUp - Edit Test Script">
+    <classes>
+      <class name="com.test.MyOpenCasesForFollowUpEdit"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  
+  <test name="My Open Cases for FollowUp - Copy Test Script">
+    <classes>
+      <class name="com.test.MyOpenCasesForFollowUpCopy"/>
+    </classes>
+  </test> <!-- Test -->
+  
+
+
+
+<test name="My Open Cases for FollowUp- Exit  Test Script">
+    <classes>
+      <class name="com.test.MyOpenCasesForFollowUpExit"/>
+    </classes>
+  </test> <!-- Test -->
+
+
+
+<test name="My Open Cases for FollowUp- Delete Test Script">
+    <classes>
+      <class name="com.test.MyOpenCasesForFollowUpDelete"/>
+    </classes>
+  </test> <!-- Test -->
+
+
+
+
+
+
+
+
+
+
+
+  
+ <test name="My Case History- Add  Test Script">
+    <classes>
+      <class name="com.test.MyCaseHistoryAdd"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  
+  <test name="My Case History - Edit Test Script">
+    <classes>
+      <class name="com.test.MyCaseHistoryEdit"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  
+  <test name="My Case History - Copy Test Script">
+    <classes>
+      <class name="com.test.MyCaseHistoryCopy"/>
+    </classes>
+  </test> <!-- Test -->
+  
+
+
+
+<test name="My Case History- Exit  Test Script">
+    <classes>
+      <class name="com.test.MyCaseHistoryExit"/>
+    </classes>
+  </test> <!-- Test -->
+
+
+
+
+<test name="My Case History- Delete  Test Script">
+    <classes>
+      <class name="com.test.MyCaseHistoryDelete"/>
+    </classes>
+  </test> <!-- Test -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <test name="EDI- Batch Processing Process with Batch No">
+    <classes>
+      <class name="com.test.ProcessClaimsWithBatchNumber"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  
+   <test name="EDI- Batch Processing Process with Disposition">
+    <classes>
+      <class name="com.test.ProcessClaimsWithDisposition"/>
+    </classes>
+  </test> <!-- Test -->
+  
+ 
+
+<test name="EDI- Batch Processing-cancel Process with Batch No">
+    <classes>
+      <class name="com.test.CancelClaimsProcessingWithBatchNumber"/>
+    </classes>
+  </test> <!-- Test -->
+
+
+
+<test name="EDI- Batch Processing-cancel Process with Disposition">
+    <classes>
+      <class name="com.test.CancelClaimsProcessingWithDisposition"/>
+    </classes>
+  </test> <!-- Test -->
+
+
+
+
+
+ <test name="EDI Submitters - Add Test Script">
+    <classes>
+      <class name="com.test.EDISubmittersAdd"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  
+  <test name="EDI Submitters- Edit Test Script">
+    <classes>
+      <class name="com.test.EDISubmittersEdit"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  
+  <test name="EDI SUbmitters Copy Test Script">
+    <classes>
+      <class name="com.test.EDISubmittersCopy"/>
+    </classes>
+  </test> <!-- Test -->
+  
+
+<test name="EDI Submitters Add Comm Test Script">
+    <classes>
+      <class name="com.test.EDISubmittersAddComm"/>
+    </classes>
+  </test> <!-- Test -->
+
+
+
+<test name="EDI Submitters - Exit Test Script">
+    <classes>
+      <class name="com.test.EDISubmittersExit"/>
+    </classes>
+  </test> <!-- Test -->
+
+
+<test name="EDI Submitter Delete Test Script">
+    <classes>
+      <class name="com.test.EDISubmittersDelete"/>
+    </classes>
+  </test> <!-- Test -->
+
+
+
+
+
+
+
+
+
+
+  
+ <test name="EOB Report - Edit Claim Query Test Script">
+    <classes>
+      <class name="com.test.EOBEditClaimQuery"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  
+  <test name="EOB Report- Extract Claims Data ReportTest Script">
+    <classes>
+      <class name="com.test.EOBExtractClaimsDataReport"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  
+  <test name="EOB Report -  Log Claims As Paid Test Script">
+    <classes>
+      <class name="com.test.EOBLogClaimsAsPaidReport"/>
+    </classes>
+  </test> <!-- Test -->
+  
+
+<test name="EOB Report- Exit Test Script">
+    <classes>
+      <class name="com.test.EOBReportExit"/>
+    </classes>
+  </test> <!-- Test -->
+
+
+
+<test name="EOB Report - Show Data Test Script">
+    <classes>
+      <class name="com.test.EOBReportShowData"/>
+    </classes>
+  </test> <!-- Test -->
+
+
+
+
+
+
+
+
+ 
+ <test name="Claim IT Report - Claim Query Test Script">
+    <classes>
+      <class name="com.test.ClaimITReportSearchOnClaimQuery"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  
+  <test name="Claim IT Report- Client Fault Test Script">
+    <classes>
+      <class name="com.test.ClaimITReportSearchOnClientFault"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  
+  <test name="Claim IT Report -  Service Dates Test Script">
+    <classes>
+      <class name="com.test.ClaimITReportSearchOnDates"/>
+    </classes>
+  </test> <!-- Test -->
+  
+
+<test name="Claim IT Report- Payor Test Script">
+    <classes>
+      <class name="com.test.ClaimITReportSearchOnPayor"/>
+    </classes>
+  </test> <!-- Test -->
+
+
+
+<test name="Claim IT Report - Provider ID Test Script">
+    <classes>
+      <class name="com.test.ClaimITReportSearchOnProvider"/>
+    </classes>
+  </test> <!-- Test -->
+
+
+
+
+
+
+
+
+
+
+
+<test name="Ethnic Categories Add Test Script">
+    <classes>
+      <class name="com.test.EthnicCategoriesAddTestScript"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  <test name="Ethnic Categories Add Comm Test Script">
+    <classes>
+      <class name="com.test.EthnicCategoriesAddCommTestScript"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  
+   <test name="Ethnic Categories Copy Test Script">
+    <classes>
+      <class name="com.test.EthnicCategoriesCopyTestScript"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  
+  <test name="Ethnic Categories Edit Test Script">
+    <classes>
+      <class name="com.test.EthnicCategoriesEditTestScript"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  
+  <test name="Ethnic Categories Delete Test Script">
+    <classes>
+      <class name="com.test.EthnicCategoriesDeleteTestScript"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  
+  <test name="Ethnic Categories Exit Test Script">
+    <classes>
+      <class name="com.test.EthnicCategoriesExitTestScript"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  <test name="Job Status Categories Add Test Script">
+    <classes>
+      <class name="com.test.JobStatusCategoriesAddTestScript"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  <test name="Job Status Categories Add Comm Test Script">
+    <classes>
+      <class name="com.test.JobStatusCategoriesAddCommTestScript"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  
+   <test name="Job Status Categories Copy Test Script">
+    <classes>
+      <class name="com.test.JobStatusCategoriesCopyTestScript"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  
+  <test name="Job Status Categories Edit Test Script">
+    <classes>
+      <class name="com.test.JobStatusCategoriesEditTestScript"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  
+  <test name="Job Status Categories Delete Test Script">
+    <classes>
+      <class name="com.test.JobStatusCategoriesDeleteTestScript"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  
+  <test name="Job Status Categories Exit Test Script">
+    <classes>
+      <class name="com.test.JobStatusCategoriesExitTestScript"/>
+    </classes>
+  </test> <!-- Test -->
+  
+   <test name="Occupational Classes Add Test Script">
+    <classes>
+      <class name="com.test.OccupationalClassesAddTestScript"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  <test name="Occupational Classes Add Comm Test Script">
+    <classes>
+      <class name="com.test.OccupationalClassesAddCommTestScript"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  
+   <test name="Occupational Classes Copy Test Script">
+    <classes>
+      <class name="com.test.OccupationalClassesCopyTestScript"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  
+  <test name="Occupational Classes Edit Test Script">
+    <classes>
+      <class name="com.test.OccupationalClassesEditTestScript"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  
+  <test name="Occupational Classes Delete Test Script">
+    <classes>
+      <class name="com.test.OccupationalClassesDeleteTestScript"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  
+  <test name="Occupational Classes Exit Test Script">
+    <classes>
+      <class name="com.test.OccupationalClassesExitTestScript"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  <test name="Member-Subscriber Relationships Add Test Script">
+    <classes>
+      <class name="com.test.MemberSubscriberRelationshipsAddTestScript"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  <test name="Member-Subscriber Relationships Add Comm Test Script">
+    <classes>
+      <class name="com.test.MemberSubscriberRelationshipsAddCommTestScript"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  
+   <test name="Member-Subscriber Relationships Copy Test Script">
+    <classes>
+      <class name="com.test.MemberSubscriberRelationshipsCopyTestScript"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  
+  <test name="Member-Subscriber Relationships Edit Test Script">
+    <classes>
+      <class name="com.test.MemberSubscriberRelationshipsEditTestScript"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  
+  <test name="Member-Subscriber Relationships Delete Test Script">
+    <classes>
+      <class name="com.test.MemberSubscriberRelationshipsDeleteTestScript"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  
+  <test name="Member-Subscriber Relationships Exit Test Script">
+    <classes>
+      <class name="com.test.MemberSubscriberRelationshipsExitTestScript"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  <test name="Coverage Manual Entry Reasons Add Test Script">
+    <classes>
+      <class name="com.test.CoverageManualEntryReasonsAddTestScript"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  <test name="Coverage Manual Entry Reasons Add Comm Test Script">
+    <classes>
+      <class name="com.test.CoverageManualEntryReasonsAddCommTestScript"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  
+   <test name="Coverage Manual Entry Reasons Copy Test Script">
+    <classes>
+      <class name="com.test.CoverageManualEntryReasonsCopyTestScript"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  
+  <test name="Coverage Manual Entry Reasons Edit Test Script">
+    <classes>
+      <class name="com.test.CoverageManualEntryReasonsEditTestScript"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  
+  <test name="Coverage Manual Entry Reasons Delete Test Script">
+    <classes>
+      <class name="com.test.CoverageManualEntryReasonsDeleteTestScript"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  
+  <test name="Coverage Manual Entry Reasons Exit Test Script">
+    <classes>
+      <class name="com.test.CoverageManualEntryReasonsExitTestScript"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  <test name="Payer Types Add Test Script">
+    <classes>
+      <class name="com.test.PayerTypesAddTestScript"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  <test name="Payer Types Add Comm Test Script">
+    <classes>
+      <class name="com.test.PayerTypesAddCommTestScript"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  
+   <test name="Payer Types Copy Test Script">
+    <classes>
+      <class name="com.test.PayerTypesCopyTestScript"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  
+  <test name="Payer Types Edit Test Script">
+    <classes>
+      <class name="com.test.PayerTypesEditTestScript"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  
+  <test name="Payer Types Delete Test Script">
+    <classes>
+      <class name="com.test.PayerTypesDeleteTestScript"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  
+  <test name="Payer Types Exit Test Script">
+    <classes>
+      <class name="com.test.PayerTypesExitTestScript"/>
+    </classes>
+  </test> <!-- Test -->
+  
+
+
+
+
+
+
+  <test name="Contract Types Add Test Script">
+    <classes>
+      <class name="com.test.ContractTypesAddTestScript"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  <test name="Contract Types Add Comm Test Script">
+    <classes>
+      <class name="com.test.ContractTypesAddCommTestScript"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  
+   <test name="Contract Types Copy Test Script">
+    <classes>
+      <class name="com.test.ContractTypesCopyTestScript"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  
+  <test name="Contract Types Edit Test Script">
+    <classes>
+      <class name="com.test.ContractTypesEditTestScript"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  
+  <test name="Contract Types Delete Test Script">
+    <classes>
+      <class name="com.test.ContractTypesDeleteTestScript"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  
+  <test name="Contract Types Exit Test Script">
+    <classes>
+      <class name="com.test.ContractTypesExitTestScript"/>
+    </classes>
+  </test> <!-- Test -->
+  
+
+
+
+
+
+
+
+
+
+
+   <test name="Insurance Coverage Extents Add Test Script">
+    <classes>
+      <class name="com.test.InsuranceCoverageExtentsAddTestScript"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  <test name="Insurance Coverage Extents Add Comm Test Script">
+    <classes>
+      <class name="com.test.InsuranceCoverageExtentsAddCommTestScript"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  
+   <test name="Insurance Coverage Extents Copy Test Script">
+    <classes>
+      <class name="com.test.InsuranceCoverageExtentsCopyTestScript"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  
+  <test name="Insurance Coverage Extents Edit Test Script">
+    <classes>
+      <class name="com.test.InsuranceCoverageExtentsEditTestScript"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  
+  <test name="Insurance Coverage Extents Delete Test Script">
+    <classes>
+      <class name="com.test.InsuranceCoverageExtentsDeleteTestScript"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  
+  <test name="Insurance Coverage Extents Exit Test Script">
+    <classes>
+      <class name="com.test.InsuranceCoverageExtentsExitTestScript"/>
+    </classes>
+  </test> <!-- Test -->
+
+
+
+
+
+
+
+
+
+
+  
+   <test name="Benefit Premium Payment Modes Add Test Script">
+    <classes>
+      <class name="com.test.BenefitPremiumPaymentModesAddTestScript"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  <test name="Benefit Premium Payment Modes Add Comm Test Script">
+    <classes>
+      <class name="com.test.BenefitPremiumPaymentModesAddCommTestScript"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  
+   <test name="Benefit Premium Payment Modes Copy Test Script">
+    <classes>
+      <class name="com.test.BenefitPremiumPaymentModesCopyTestScript"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  
+  <test name="Benefit Premium Payment Modes Edit Test Script">
+    <classes>
+      <class name="com.test.BenefitPremiumPaymentModesEditTestScript"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  
+  <test name="Benefit Premium Payment Modes Delete Test Script">
+    <classes>
+      <class name="com.test.BenefitPremiumPaymentModesDeleteTestScript"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  
+  <test name="Benefit Premium Payment Modes Exit Test Script">
+    <classes>
+      <class name="com.test.BenefitPremiumPaymentModesExitTestScript"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+
+  <test name="FCMC Action Codes Add Test Script">
+    <classes>
+      <class name="com.test.FCMCActionCodesAddTestScript"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  <test name="FCMC Action Codes Add Comm Test Script">
+    <classes>
+      <class name="com.test.FCMCActionCodesAddCommTestScript"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  
+   <test name="FCMC Action Codes Copy Test Script">
+    <classes>
+      <class name="com.test.FCMCActionCodesCopyTestScript"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  
+  <test name="FCMC Action Codes Edit Test Script">
+    <classes>
+      <class name="com.test.FCMCActionCodesEditTestScript"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  
+  <test name="FCMC Action Codes Delete Test Script">
+    <classes>
+      <class name="com.test.FCMCActionCodesDeleteTestScript"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  
+  <test name="FCMC Action Codes Exit Test Script">
+    <classes>
+      <class name="com.test.FCMCActionCodesExitTestScript"/>
+    </classes>
+  </test> <!-- Test -->
+
+
+
+
+
+
+
+
+
+  
+  <test name="FCMC Race Codes Add Test Script">
+    <classes>
+      <class name="com.test.FCMCRaceCodesAddTestScript"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  <test name="FCMC Race Codes Add Comm Test Script">
+    <classes>
+      <class name="com.test.FCMCRaceCodesAddCommTestScript"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  
+   <test name="FCMC Race Codes Copy Test Script">
+    <classes>
+      <class name="com.test.FCMCRaceCodesCopyTestScript"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  
+  <test name="FCMC Race Codes Edit Test Script">
+    <classes>
+      <class name="com.test.FCMCRaceCodesEditTestScript"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  
+  <test name="FCMC Race Codes Delete Test Script">
+    <classes>
+      <class name="com.test.FCMCRaceCodesDeleteTestScript"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  
+  <test name="FCMC Race Codes Exit Test Script">
+    <classes>
+      <class name="com.test.FCMCRaceCodesExitTestScript"/>
+    </classes>
+  </test> <!-- Test -->
+  
+   <test name="FCMC Ethnic Group Codes Add Test Script">
+    <classes>
+      <class name="com.test.FCMCEthnicGroupCodesAddTestScript"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  <test name="FCMC Ethnic Group Codes Add Comm Test Script">
+    <classes>
+      <class name="com.test.FCMCEthnicGroupCodesAddCommTestScript"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  
+   <test name="FCMC Ethnic Group Codes Copy Test Script">
+    <classes>
+      <class name="com.test.FCMCEthnicGroupCodesCopyTestScript"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  
+  <test name="FCMC Ethnic Group Codes Edit Test Script">
+    <classes>
+      <class name="com.test.FCMCEthnicGroupCodesEditTestScript"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  
+  <test name="FCMC Ethnic Group Codes Delete Test Script">
+    <classes>
+      <class name="com.test.FCMCEthnicGroupCodesDeleteTestScript"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  
+  <test name="FCMC Ethnic Group Codes Exit Test Script">
+    <classes>
+      <class name="com.test.FCMCEthnicGroupCodesExitTestScript"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  <test name="FCMC Relation Codes Add Test Script">
+    <classes>
+      <class name="com.test.FCMCRelationCodesAddTestScript"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  <test name="FCMC Relation Codes Add Comm Test Script">
+    <classes>
+      <class name="com.test.FCMCRelationCodesAddCommTestScript"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  
+   <test name="FCMC Relation Codes Copy Test Script">
+    <classes>
+      <class name="com.test.FCMCRelationCodesCopyTestScript"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  
+  <test name="FCMC Relation Codes Edit Test Script">
+    <classes>
+      <class name="com.test.FCMCRelationCodesEditTestScript"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  
+  <test name="FCMC Relation Codes Delete Test Script">
+    <classes>
+      <class name="com.test.FCMCRelationCodesDeleteTestScript"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  
+  <test name="FCMC Relation Codes Exit Test Script">
+    <classes>
+      <class name="com.test.FCMCRelationCodesExitTestScript"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  <test name="FCMC Level of Care Codes Add Test Script">
+    <classes>
+      <class name="com.test.FCMCLevelofCareCodesAddTestScript"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  <test name="FCMC Level of Care Codes Add Comm Test Script">
+    <classes>
+      <class name="com.test.FCMCLevelofCareCodesAddCommTestScript"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  
+   <test name="FCMC Level of Care Codes Copy Test Script">
+    <classes>
+      <class name="com.test.FCMCLevelofCareCodesCopyTestScript"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  
+  <test name="FCMC Level of Care Codes Edit Test Script">
+    <classes>
+      <class name="com.test.FCMCLevelofCareCodesEditTestScript"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  
+  <test name="FCMC Level of Care Codes Delete Test Script">
+    <classes>
+      <class name="com.test.FCMCLevelOfCareCodesDeleteTestScript"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  
+  <test name="FCMC Level of Care Codes Exit Test Script">
+    <classes>
+      <class name="com.test.FCMCLevelofCareCodesExitTestScript"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  <test name="FCMC Consenter Types Add Test Script">
+    <classes>
+      <class name="com.test.FCMCConsenterTypesAddTestScript"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  <test name="FCMC Consenter Types Add Comm Test Script">
+    <classes>
+      <class name="com.test.FCMCConsenterTypesAddCommTestScript"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  
+   <test name="FCMC Consenter Types Copy Test Script">
+    <classes>
+      <class name="com.test.FCMCConsenterTypesCopyTestScript"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  
+  <test name="FCMC Consenter Types Edit Test Script">
+    <classes>
+      <class name="com.test.FCMCConsenterTypesEditTestScript"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  
+  <test name="FCMC Consenter Types Delete Test Script">
+    <classes>
+      <class name="com.test.FCMCConsenterTypesDeleteTestScript"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  
+  <test name="FCMC Consenter Types Exit Test Script">
+    <classes>
+      <class name="com.test.FCMCConsenterTypesExitTestScript"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  
+
+
+
+
+
+
+
+
+
+
+  <test name="Academic Degrees Add Test Script">
+    <classes>
+      <class name="com.test.AcademicDegreesAddTestScript"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  <test name="Academic Degrees Add Comm Test Script">
+    <classes>
+      <class name="com.test.AcademicDegreesAddCommTestScript"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  
+   <test name="Academic Degrees Copy Test Script">
+    <classes>
+      <class name="com.test.AcademicDegreesCopyTestScript"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  
+  <test name="Academic Degrees Edit Test Script">
+    <classes>
+      <class name="com.test.AcademicDegreesEditTestScript"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  
+  <test name="Academic Degrees Delete Test Script">
+    <classes>
+      <class name="com.test.AcademicDegreesDeleteTestScript"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  
+  <test name="Academic Degrees Exit Test Script">
+    <classes>
+      <class name="com.test.AcademicDegreesExitTestScript"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  <test name="Provider Types Add Test Script">
+    <classes>
+      <class name="com.test.ProviderTypesAddTestScript"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  <test name="Provider Types Add Comm Test Script">
+    <classes>
+      <class name="com.test.ProviderTypesAddCommTestScript"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  
+   <test name="Provider Types Copy Test Script">
+    <classes>
+      <class name="com.test.ProviderTypesCopyTestScript"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  
+  <test name="Provider Types Edit Test Script">
+    <classes>
+      <class name="com.test.ProviderTypesEditTestScript"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  
+  <test name="Provider Types Delete Test Script">
+    <classes>
+      <class name="com.test.ProviderTypesDeleteTestScript"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  
+  <test name="Provider Types Exit Test Script">
+    <classes>
+      <class name="com.test.ProviderTypesExitTestScript"/>
+    </classes>
+  </test> <!-- Test -->
+  
+   <test name="Provider-Organization Affiliation Types Add Test Script">
+    <classes>
+      <class name="com.test.ProviderOrganizationAffiliationTypesAddTestScript"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  <test name="Provider-Organization Affiliation Types Add Comm Test Script">
+    <classes>
+      <class name="com.test.ProviderOrganizationAffiliationTypesAddCommTestScript"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  
+   <test name="Provider-Organization Affiliation Types Copy Test Script">
+    <classes>
+      <class name="com.test.ProviderOrganizationAffiliationTypesCopyTestScript"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  
+  <test name="Provider-Organization Affiliation Types Edit Test Script">
+    <classes>
+      <class name="com.test.ProviderOrganizationAffiliationTypesEditTestScript"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  
+  <test name="Provider-Organization Affiliation Types Delete Test Script">
+    <classes>
+      <class name="com.test.ProviderOrganizationAffiliationTypesDeleteTestScript"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  
+  <test name="Provider-Organization Affiliation Types Exit Test Script">
+    <classes>
+      <class name="com.test.ProviderOrganizationAffiliationTypesExitTestScript"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  <test name="Office Types Add Test Script">
+    <classes>
+      <class name="com.test.OfficeTypesAddTestScript"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  <test name="Office Types Add Comm Test Script">
+    <classes>
+      <class name="com.test.OfficeTypesAddCommTestScript"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  
+   <test name="Office Types Copy Test Script">
+    <classes>
+      <class name="com.test.OfficeTypesCopyTestScript"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  
+  <test name="Office Types Edit Test Script">
+    <classes>
+      <class name="com.test.OfficeTypesEditTestScript"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  
+  <test name="Office Types Delete Test Script">
+    <classes>
+      <class name="com.test.OfficeTypesDeleteTestScript"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  
+  <test name="Office Types Exit Test Script">
+    <classes>
+      <class name="com.test.OfficeTypesExitTestScript"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  <test name="Other Credentialling Source Types Add Test Script">
+    <classes>
+      <class name="com.test.OtherCredentiallingSourceTypesAddTestScript"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  <test name="Other Credentialling Source Types Add Comm Test Script">
+    <classes>
+      <class name="com.test.OtherCredentiallingSourceTypesAddCommTestScript"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  
+   <test name="Other Credentialling Source Types Copy Test Script">
+    <classes>
+      <class name="com.test.OtherCredentiallingSourceTypesCopyTestScript"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  
+  <test name="Other Credentialling Source Types Edit Test Script">
+    <classes>
+      <class name="com.test.OtherCredentiallingSourceTypesEditTestScript"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  
+  <test name="Other Credentialling Source Types Delete Test Script">
+    <classes>
+      <class name="com.test.OtherCredentiallingSourceTypesDeleteTestScript"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  
+  <test name="Other Credentialling Source Types Exit Test Script">
+    <classes>
+      <class name="com.test.OtherCredentiallingSourceTypesExitTestScript"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  <test name="Credentialling Statuses Add Test Script">
+    <classes>
+      <class name="com.test.CredentiallingStatusesAddTestScript"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  <test name="Credentialling Statuses Add Comm Test Script">
+    <classes>
+      <class name="com.test.CredentiallingStatusesAddCommTestScript"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  
+   <test name="Credentialling Statuses Copy Test Script">
+    <classes>
+      <class name="com.test.CredentiallingStatusesCopyTestScript"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  
+  <test name="Credentialling Statuses Edit Test Script">
+    <classes>
+      <class name="com.test.CredentiallingStatusesEditTestScript"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  
+  <test name="Credentialling Statuses Delete Test Script">
+    <classes>
+      <class name="com.test.CredentiallingStatusesDeleteTestScript"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  
+  <test name="Credentialling Statuses Exit Test Script">
+    <classes>
+      <class name="com.test.CredentiallingStatusesExitTestScript"/>
+    </classes>
+  </test> <!-- Test -->
+  
+
+
+
+
+<test name="Communication Case Types Add Test Script">
+    <classes>
+      <class name="com.test.CommunicationCaseTypesAddTestScript"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  <test name="Communication Case Types Add Comm Test Script">
+    <classes>
+      <class name="com.test.CommunicationCaseTypesAddCommTestScript"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  
+   <test name="Communication Case Types Copy Test Script">
+    <classes>
+      <class name="com.test.CommunicationCaseTypesCopyTestScript"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  
+  <test name="Communication Case Types Edit Test Script">
+    <classes>
+      <class name="com.test.CommunicationCaseTypesEditTestScript"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  
+  <test name="Communication Case Types Delete Test Script">
+    <classes>
+      <class name="com.test.CommunicationCaseTypesDeleteTestScript"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  
+  <test name="Communication Case Types Exit Test Script">
+    <classes>
+      <class name="com.test.CommunicationCaseTypesExitTestScript"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  <test name="Communication Case Statuses Add Test Script">
+    <classes>
+      <class name="com.test.CommunicationCaseStatusesAddTestScript"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  <test name="Communication Case Statuses Add Comm Test Script">
+    <classes>
+      <class name="com.test.CommunicationCaseStatusesAddCommTestScript"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  
+   <test name="Communication Case Statuses Copy Test Script">
+    <classes>
+      <class name="com.test.CommunicationCaseStatusesCopyTestScript"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  
+  <test name="Communication Case Statuses Edit Test Script">
+    <classes>
+      <class name="com.test.CommunicationCaseStatusesEditTestScript"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  
+  <test name="Communication Case Statuses Delete Test Script">
+    <classes>
+      <class name="com.test.CommunicationCaseStatusesDeleteTestScript"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  
+  <test name="Communication Case Statuses Exit Test Script">
+    <classes>
+      <class name="com.test.CommunicationCaseStatusesExitTestScript"/>
+    </classes>
+  </test> <!-- Test -->
+  
+   <test name="Communication Case Priorities Add Test Script">
+    <classes>
+      <class name="com.test.CommunicationCasePrioritiesAddTestScript"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  <test name="Communication Case Priorities Add Comm Test Script">
+    <classes>
+      <class name="com.test.CommunicationCasePrioritiesAddCommTestScript"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  
+  
+  
+   <test name="Communication Case Priorities Copy Test Script">
+    <classes>
+      <class name="com.test.CommunicationCasePrioritiesCopyTestScript"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  
+  <test name="Communication Case Priorities Edit Test Script">
+    <classes>
+      <class name="com.test.CommunicationCasePrioritiesEditTestScript"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  
+  <test name="Communication Case Priorities Delete Test Script">
+    <classes>
+      <class name="com.test.CommunicationCasePrioritiesDeleteTestScript"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  
+  <test name="Communication Case Priorities Exit Test Script">
+    <classes>
+      <class name="com.test.CommunicationCasePrioritiesExitTestScript"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  <test name="Journal Contact Medias Add Test Script">
+    <classes>
+      <class name="com.test.JournalContactMediasAddTestScript"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  <test name="Journal Contact Medias Add Comm Test Script">
+    <classes>
+      <class name="com.test.JournalContactMediasAddCommTestScript"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  
+   <test name="Journal Contact Medias Copy Test Script">
+    <classes>
+      <class name="com.test.JournalContactMediasCopyTestScript"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  
+  <test name="Journal Contact Medias Edit Test Script">
+    <classes>
+      <class name="com.test.JournalContactMediasEditTestScript"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  
+  <test name="Journal Contact Medias Delete Test Script">
+    <classes>
+      <class name="com.test.JournalContactMediasDeleteTestScript"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  
+  <test name="Journal Contact Medias Exit Test Script">
+    <classes>
+      <class name="com.test.JournalContactMediasExitTestScript"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  <test name="Journal Note Types Add Test Script">
+    <classes>
+      <class name="com.test.JournalNoteTypesAddTestScript"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  <test name="Journal Note Types Add Comm Test Script">
+    <classes>
+      <class name="com.test.JournalNoteTypesAddCommTestScript"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  
+   <test name="Journal Note Types Copy Test Script">
+    <classes>
+      <class name="com.test.JournalNoteTypesCopyTestScript"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  
+  <test name="Journal Note Types Edit Test Script">
+    <classes>
+      <class name="com.test.JournalNoteTypesEditTestScript"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  
+  <test name="Journal Note Types Delete Test Script">
+    <classes>
+      <class name="com.test.JournalNoteTypesDeleteTestScript"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  
+  <test name="Journal Note Types Exit Test Script">
+    <classes>
+      <class name="com.test.JournalNoteTypesExitTestScript"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  
+
+
+
+
+
+
+
+
+
+<test name="Diagnostic Categories Add Test Script">
+    <classes>
+      <class name="com.test.DiagnosticCategoriesAddTestScript"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  <test name="Diagnostic Categories Add Comm Test Script">
+    <classes>
+      <class name="com.test.DiagnosticCategoriesAddCommTestScript"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  
+   <test name="Diagnostic Categories Copy Test Script">
+    <classes>
+      <class name="com.test.DiagnosticCategoriesCopyTestScript"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  
+  <test name="Diagnostic Categories Edit Test Script">
+    <classes>
+      <class name="com.test.DiagnosticCategoriesEditTestScript"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  
+  <test name="Diagnostic Categories Delete Test Script">
+    <classes>
+      <class name="com.test.DiagnosticCategoriesDeleteTestScript"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  
+  <test name="Diagnostic Categories Exit Test Script">
+    <classes>
+      <class name="com.test.DiagnosticCategoriesExitTestScript"/>
+    </classes>
+  </test> <!-- Test -->
+
+
+
+
+
+
+
+
+
+
+  
+  <test name="Diagnosis Codes Add Test Script">
+    <classes>
+      <class name="com.test.DiagnosisCodesAddTestScript"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  <test name="Diagnosis Codes Add Comm Test Script">
+    <classes>
+      <class name="com.test.DiagnosisCodesAddCommTestScript"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  
+   <test name="Diagnosis Codes Copy Test Script">
+    <classes>
+      <class name="com.test.DiagnosisCodesCopyTestScript"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  
+  <test name="Diagnosis Codes Edit Test Script">
+    <classes>
+      <class name="com.test.DiagnosisCodesEditTestScript"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  
+  <test name="Diagnosis Codes Delete Test Script">
+    <classes>
+      <class name="com.test.DiagnosisCodesDeleteTestScript"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  
+  <test name="Diagnosis Codes Exit Test Script">
+    <classes>
+      <class name="com.test.DiagnosisCodesExitTestScript"/>
+    </classes>
+  </test> <!-- Test -->
+  
+
+
+
+
+
+
+
+
+
+
+   <test name="UR Case/Problem Types Add Test Script">
+    <classes>
+      <class name="com.test.URCaseProblemTypesAddTestScript"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  <test name="UR Case/Problem Types Add Comm Test Script">
+    <classes>
+      <class name="com.test.URCaseProblemTypesAddCommTestScript"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  
+   <test name="UR Case/Problem Types Copy Test Script">
+    <classes>
+      <class name="com.test.URCaseProblemTypesCopyTestScrip"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  
+  <test name="UR Case/Problem Types Edit Test Script">
+    <classes>
+      <class name="com.test.URCaseProblemTypesEditTestScript"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  
+  <test name="UR Case/Problem Types Delete Test Script">
+    <classes>
+      <class name="com.test.URCaseProblemTypesDeleteTestScript"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  
+  <test name="UR Case/Problem Types Exit Test Script">
+    <classes>
+      <class name="com.test.URCaseProblemTypesExitTestScript"/>
+    </classes>
+  </test> <!-- Test -->
+  
+   
+   
+ <test name="Diagnosis Code Sets- Add  Test Script">
+    <classes>
+      <class name="com.test.DiagnosisCodeSetsAddTestScript"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  
+  <test name="Diagnosis Code Sets - Edit Test Script">
+    <classes>
+      <class name="com.test.DiagnosisCodeSetsEditTestScript"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  
+  <test name="Diagnosis Code Sets - Copy Test Script">
+    <classes>
+      <class name="com.test.DiagnosisCodeSetsCopyTestScript"/>
+    </classes>
+  </test> <!-- Test -->
+  
+
+
+
+<test name="Diagnosis Code Sets- Exit  Test Script">
+    <classes>
+      <class name="com.test.DiagnosisCodeSetsExitTestScript"/>
+    </classes>
+  </test> <!-- Test -->
+
+
+
+
+<test name="Diagnosis Code Sets- Add Comm  Test Script">
+    <classes>
+      <class name="com.test.DiagnosisCodeSetsAddCommTestScript"/>
+    </classes>
+  </test> <!-- Test -->
+
+ 
+<test name="Diagnosis Code Sets- Delete  Test Script">
+    <classes>
+      <class name="com.test.DiagnosisCodeSetsDeleteTestScript"/>
+    </classes>
+  </test> <!-- Test -->
+
+
+
+
+
+
+
+
+
+
+
+  <test name="HCFA Service Types Add Test Script">
+    <classes>
+      <class name="com.test.HCFAServiceTypesAddTestScript"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  <test name="HCFA Service Types Add Comm Test Script">
+    <classes>
+      <class name="com.test.HCFAServiceTypesAddCommTestScript"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  
+   <test name="HCFA Service Types Copy Test Script">
+    <classes>
+      <class name="com.test.HCFAServiceTypesCopyTestScript"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  
+  <test name="HCFA Service Types Edit Test Script">
+    <classes>
+      <class name="com.test.HCFAServiceTypesEditTestScript"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  
+  <test name="HCFA Service Types Delete Test Script">
+    <classes>
+      <class name="com.test.HCFAServiceTypesDeleteTestScript"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  
+  <test name="HCFA Service Types Exit Test Script">
+    <classes>
+      <class name="com.test.HCFAServiceTypesExitTestScript"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  <test name="Service Categories Add Test Script">
+    <classes>
+      <class name="com.test.ServiceCategoriesAddTestScript"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  <test name="Service Categories Add Comm Test Script">
+    <classes>
+      <class name="com.test.ServiceCategoriesAddCommTestScript"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  
+   <test name="Service Categories Copy Test Script">
+    <classes>
+      <class name="com.test.ServiceCategoriesCopyTestScript"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  
+  <test name="Service Categories Edit Test Script">
+    <classes>
+      <class name="com.test.ServiceCategoriesEditTestScript"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  
+  <test name="Service Categories Delete Test Script">
+    <classes>
+      <class name="com.test.ServiceCategoriesDeleteTestType"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  
+  <test name="Service Categories Exit Test Script">
+    <classes>
+      <class name="com.test.ServiceCategoriesExitTestScript"/>
+    </classes>
+  </test> <!-- Test -->
+  
+   <test name="Modifiers Add Test Script">
+    <classes>
+      <class name="com.test.ModifiersAddTestScript"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  <test name="Modifiers Add Comm Test Script">
+    <classes>
+      <class name="com.test.ModifiersAddCommTestScript"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  
+   <test name="Modifiers Copy Test Script">
+    <classes>
+      <class name="com.test.ModifiersCopyTestScript"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  
+  <test name="Modifiers Edit Test Script">
+    <classes>
+      <class name="com.test.ModifiersEditTestScript"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  
+  <test name="Modifiers Delete Test Script">
+    <classes>
+      <class name="com.test.ModifiersDeleteTestScript"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  
+  <test name="Modifiers Exit Test Script">
+    <classes>
+      <class name="com.test.ModifiersExitTestScript"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  <test name="Service Sets Add Test Script">
+    <classes>
+      <class name="com.test.ServiceSetsAddTestScript"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  <test name="Service Sets Add Comm Test Script">
+    <classes>
+      <class name="com.test.ServiceSetsAddCommTestScript"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  
+   <test name="Service Sets Copy Test Script">
+    <classes>
+      <class name="com.test.ServiceSetsCopyTestScript"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  
+  <test name="Service Sets Edit Test Script">
+    <classes>
+      <class name="com.test.ServiceSetsEditTestScript"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  
+  <test name="Service Sets Delete Test Script">
+    <classes>
+      <class name="com.test.ServiceSetsDeleteTestScript"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  
+  <test name="Service Sets Exit Test Script">
+    <classes>
+      <class name="com.test.ServiceSetsExitTestScript"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  <test name="RVU Geographic Multipliers Add Test Script">
+    <classes>
+      <class name="com.test.RVUGeographicMultipliersAddTestScript"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  <test name="RVU Geographic Multipliers Add Comm Test Script">
+    <classes>
+      <class name="com.test.RVUGeographicMultipliersAddCommTestScript"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  
+   <test name="RVU Geographic Multipliers Copy Test Script">
+    <classes>
+      <class name="com.test.RVUGeographicMultipliersCopyTestScript"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  
+  <test name="RVU Geographic Multipliers Edit Test Script">
+    <classes>
+      <class name="com.test.RVUGeographicMultipliersEditTestScript"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  
+  <test name="RVU Geographic Multipliers Delete Test Script">
+    <classes>
+      <class name="com.test.RVUGeographicMultipliersDeleteTestScript"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  
+  <test name="RVU Geographic Multipliers Exit Test Script">
+    <classes>
+      <class name="com.test.RVUGeographicMultipliersExitTestScript"/>
+    </classes>
+  </test> <!-- Test -->
+  
+
+  
+ <test name="Service Codes- Add  Test Script">
+    <classes>
+      <class name="com.test.ServiceCodesAddTestScript"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  
+  <test name="Service Codes - Edit Test Script">
+    <classes>
+      <class name="com.test.ServiceCodesEditTestScript"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  
+  <test name="Service Codes - Copy Test Script">
+    <classes>
+      <class name="com.test.ServiceCodesCopyTestScript"/>
+    </classes>
+  </test> <!-- Test -->
+  
+
+
+
+<test name="Service Codes- Exit  Test Script">
+    <classes>
+      <class name="com.test.ServiceCodesExitTestScript"/>
+    </classes>
+  </test> <!-- Test -->
+
+
+
+
+<test name="Service Codes- Add Comm  Test Script">
+    <classes>
+      <class name="com.test.ServiceCodesAddCommTestScript"/>
+    </classes>
+  </test> <!-- Test -->
+
+ 
+<test name="Service Codes- Delete  Test Script">
+    <classes>
+      <class name="com.test.ServiceCodesDeleteTestScript"/>
+    </classes>
+  </test> <!-- Test -->
+
+
+
+
+
+
+
+
+
+
+<test name="UM Case Status Codes Add Test Script">
+    <classes>
+      <class name="com.test.UMCaseStatusCodesAddTestScript"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  <test name="UM Case Status Codes Add Comm Test Script">
+    <classes>
+      <class name="com.test.UMCaseStatusCodesAddCommTestScript"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  
+   <test name="UM Case Status Codes Copy Test Script">
+    <classes>
+      <class name="com.test.UMCaseStatusCodesCopyTestScript"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  
+  <test name="UM Case Status Codes Edit Test Script">
+    <classes>
+      <class name="com.test.UMCaseStatusCodesEditTestScript"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  
+  <test name="UM Case Status Codes Delete Test Script">
+    <classes>
+      <class name="com.test.UMCaseStatusCodesDeleteTestScript"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  
+  <test name="UM Case Status Codes Exit Test Script">
+    <classes>
+      <class name="com.test.UMCaseStatusCodesExitTestScript"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  <test name="UM Reasons for Referral Add Test Script">
+    <classes>
+      <class name="com.test.UMReasonsforReferralAddTestScript"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  <test name="UM Reasons for Referral Add Comm Test Script">
+    <classes>
+      <class name="com.test.UMReasonsforReferralAddCommTestScript"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  
+   <test name="UM Reasons for Referral Copy Test Script">
+    <classes>
+      <class name="com.test.UMReasonsforReferralCopyTestScript"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  
+  <test name="UM Reasons for Referral Edit Test Script">
+    <classes>
+      <class name="com.test.UMReasonsforReferralEditTestScript"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  
+  <test name="UM Reasons for Referral Delete Test Script">
+    <classes>
+      <class name="com.test.UMReasonsforReferralDeleteTestScript"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  
+  <test name="UM Reasons for Referral Exit Test Script">
+    <classes>
+      <class name="com.test.UMReasonsforReferralExitTestScript"/>
+    </classes>
+  </test> <!-- Test -->
+  
+   <test name="UM Case Referrral Sources Add Test Script">
+    <classes>
+      <class name="com.test.UMCaseReferralSourcesAddTestScript"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  <test name="UM Case Referrral Sources Add Comm Test Script">
+    <classes>
+      <class name="com.test.UMCaseReferralSourcesAddCommTestScript"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  
+   <test name="UM Case Referrral Sources Copy Test Script">
+    <classes>
+      <class name="com.test.UMCaseReferralSourcesCopyTestScript"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  
+  <test name="UM Case Referrral Sources Edit Test Script">
+    <classes>
+      <class name="com.test.UMCaseReferralSourcesEditTestScript"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  
+  <test name="UM Case Referrral Sources Delete Test Script">
+    <classes>
+      <class name="com.test.UMCaseReferralSourcesDeleteTestScript"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  
+  <test name="UM Case Referrral Sources Exit Test Script">
+    <classes>
+      <class name="com.test.UMCaseReferralSourcesExitTestScript"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  <test name="UM Degrees of Clinical Urgency Add Test Script">
+    <classes>
+      <class name="com.test.UMDegreesofClinicalUrgencyAddTestScript"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  <test name="UM Degrees of Clinical Urgency Add Comm Test Script">
+    <classes>
+      <class name="com.test.UMDegreesofClinicalUrgencyAddCommTestScript"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  
+   <test name="UM Degrees of Clinical Urgency Copy Test Script">
+    <classes>
+      <class name="com.test.UMDegreesofClinicalUrgencyCopyTestScript"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  
+  <test name="UM Degrees of Clinical Urgency Edit Test Script">
+    <classes>
+      <class name="com.test.UMDegreesofClinicalUrgencyEditTestScript"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  
+  <test name="UM Degrees of Clinical Urgency Delete Test Script">
+    <classes>
+      <class name="com.test.UMDegreesofClinicalUrgencyDeleteTestScript"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  
+  <test name="UM Degrees of Clinical Urgency Exit Test Script">
+    <classes>
+      <class name="com.test.UMDegreesofClinicalUrgencyExitTestScript"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  <test name="Initial Response at Intakes Add Test Script">
+    <classes>
+      <class name="com.test.InitialResponseatIntakesAddTestScript"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  <test name="Initial Response at Intakes Add Comm Test Script">
+    <classes>
+      <class name="com.test.InitialResponseatIntakesAddCommTestScript"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  
+   <test name="Initial Response at Intakes Copy Test Script">
+    <classes>
+      <class name="com.test.InitialResponseatIntakesCopyTestScript"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  
+  <test name="Initial Response at Intakes Edit Test Script">
+    <classes>
+      <class name="com.test.InitialResponseatIntakesEditTestScript"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  
+  <test name="Initial Response at Intakes Delete Test Script">
+    <classes>
+      <class name="com.test.InitialResponseatIntakesDeleteTestScript"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  
+  <test name="Initial Response at Intakes Exit Test Script">
+    <classes>
+      <class name="com.test.InitialResponseatIntakesExitTestScript"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  <test name="UM Provider Roles Add Test Script">
+    <classes>
+      <class name="com.test.UMProviderRolesAddTestScript"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  <test name="UM Provider Roles Add Comm Test Script">
+    <classes>
+      <class name="com.test.UMProviderRolesAddCommTestScript"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  
+   <test name="UM Provider Roles Copy Test Script">
+    <classes>
+      <class name="com.test.UMProviderRolesCopyTestScript"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  
+  <test name="UM Provider Roles Edit Test Script">
+    <classes>
+      <class name="com.test.UMProviderRolesEditTestScript"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  
+  <test name="UM Provider Roles Delete Test Script">
+    <classes>
+      <class name="com.test.UMProviderRolesDeleteTestScript"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  
+  <test name="UM Provider Roles Exit Test Script">
+    <classes>
+      <class name="com.test.UMProviderRolesExitTestScript"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  <test name="Inpatient Wards/Units Add Test Script">
+    <classes>
+      <class name="com.test.InpatientWardsUnitsAddTestScript"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  <test name="Inpatient Wards/Units Add Comm Test Script">
+    <classes>
+      <class name="com.test.InpatientWardsUnitsAddCommTestScript"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  
+   <test name="Inpatient Wards/Units Copy Test Script">
+    <classes>
+      <class name="com.test.InpatientWardsUnitsCopyTestScript"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  
+  <test name="Inpatient Wards/Units Edit Test Script">
+    <classes>
+      <class name="com.test.InpatientWardsUnitsEditTestScript"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  
+  <test name="Inpatient Wards/Units Delete Test Script">
+    <classes>
+      <class name="com.test.InpatientWardsUnitsDeleteTestScript"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  
+  <test name="Inpatient Wards/Units Exit Test Script">
+    <classes>
+      <class name="com.test.InpatientWardsUnitsExitTestScript"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  <test name="Treatment Followup Actions Add Test Script">
+    <classes>
+      <class name="com.test.TreatmentFollowupActionsAddTestScript"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  <test name="Treatment Followup Actions Add Comm Test Script">
+    <classes>
+      <class name="com.test.TreatmentFollowupActionsAddCommTestScript"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  
+   <test name="Treatment Followup Actions Copy Test Script">
+    <classes>
+      <class name="com.test.TreatmentFollowupActionsCopyTestScript"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  
+  <test name="Treatment Followup Actions Edit Test Script">
+    <classes>
+      <class name="com.test.TreatmentFollowupActionsEditTestScript"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  
+  <test name="Treatment Followup Actions Delete Test Script">
+    <classes>
+      <class name="com.test.TreatmentFollowupActionsDeleteTestScript"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  
+  <test name="Treatment Followup Actions Exit Test Script">
+    <classes>
+      <class name="com.test.TreatmentFollowupActionsExitTestScript"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  
+
+
+
+
+
+
+
+
+
+ <test name="Disposition Codes Add Test Script">
+    <classes>
+      <class name="com.test.DispositionCodesAddTestScript"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  <test name="Disposition Codes Add Comm Test Script">
+    <classes>
+      <class name="com.test.DispositionCodesAddCommTestScript"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  
+   <test name="Disposition Codes Copy Test Script">
+    <classes>
+      <class name="com.test.DispositionCodesCopyTestScript"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  
+  <test name="Disposition Codes Edit Test Script">
+    <classes>
+      <class name="com.test.DispositionCodesEditTestScript"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  
+  <test name="Disposition Codes Delete Test Script">
+    <classes>
+      <class name="com.test.DispositionCodesDeleteTestScript"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  
+  <test name="Disposition Codes Exit Test Script">
+    <classes>
+      <class name="com.test.DispositionCodesExitTestScript"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  <test name="Place of Service Types Add Test Script">
+    <classes>
+      <class name="com.test.PlaceofServiceTypesAddTestScript"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  <test name="Place of Service Types Add Comm Test Script">
+    <classes>
+      <class name="com.test.PlaceofServiceTypesAddCommTestScript"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  
+   <test name="Place of Service Types Copy Test Script">
+    <classes>
+      <class name="com.test.PlaceofServiceTypesCopyTestScript"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  
+  <test name="Place of Service Types Edit Test Script">
+    <classes>
+      <class name="com.test.PlaceofServiceTypesEditTestScript"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  
+  <test name="Place of Service Types Delete Test Script">
+    <classes>
+      <class name="com.test.PlaceofServiceTypesDeleteTestScript"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  
+  <test name="Place of Service Types Exit Test Script">
+    <classes>
+      <class name="com.test.PlaceofServiceTypesExitTestScript"/>
+    </classes>
+  </test> <!-- Test -->
+  
+    <test name="Adjustment Types Add Test Script">
+    <classes>
+      <class name="com.test.AdjustmentTypesAddTestScript"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  <test name="Adjustment Types Add Comm Test Script">
+    <classes>
+      <class name="com.test.AdjustmentTypesAddCommTestScript"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  
+   <test name="Adjustment Types Copy Test Script">
+    <classes>
+      <class name="com.test.AdjustmentTypesCopyTestScript"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  
+  <test name="Adjustment Types Edit Test Script">
+    <classes>
+      <class name="com.test.AdjustmentTypesEditTestScript"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  
+  <test name="Adjustment Types Delete Test Script">
+    <classes>
+      <class name="com.test.AdjustmentTypesDeleteTestScript"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  
+  <test name="Adjustment Types Exit Test Script">
+    <classes>
+      <class name="com.test.AdjustmentTypesExitTestScript"/>
+    </classes>
+  </test> <!-- Test -->
+  
+
+  
+ <test name="Setup - Unlock Claims">
+    <classes>
+      <class name="com.test.UnlockClaims"/>
+    </classes>
+  </test> <!-- Test -->
+  
+
+   <test name="Ending  Test Script">
+    <classes>
+      <class name="com.test.FindNumberOfErrors"/>
+    </classes>
+  </test> <!-- Test -->
+
+
+
+
+  
+    </suite> <!-- Suite -->

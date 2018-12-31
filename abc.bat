@@ -1,0 +1,2 @@
+cd D:\RiskManagerSelenium\Risk Manager
+java -cp "D:\RiskManagerSelenium\Risk Manager\bin;D:\RiskManagerSelenium\Risk Manager\lib\*" org.testng.TestNG D:\RiskManagerSelenium\Risk Manager\testng All Scripts.xml

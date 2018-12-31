@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="DEMO TEST" configfailurepolicy="skip">
+
+
+
+
+<test name="Starting  Test Script">
+    <classes>
+      <class name="com.test.StartingRegressionSuiteExecution"/>
+    </classes>
+  </test> <!-- Test -->
+
+
+
+  <test name="Claims Examiner View Add Claim Test Script">
+    <classes>
+      <class name="com.test.CEVAddClaim"/>
+    </classes>
+  </test> <!-- Test -->
+  
+
+  <test name="Claims Examiner View Adjudicate Claim Test Script">
+    <classes>
+      <class name="com.test.CEVAdjudicateClaim"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  
+   <test name="Claims Examiner View Add Communication Claim Test Script">
+    <classes>
+      <class name="com.test.CEVAddCommunication"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  
+
+  
+  <test name="Claims Examiner View Copy Claim Test Script">
+    <classes>
+      <class name="com.test.CEVCopyClaim"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  
+
+  
+  
+  
+  <test name="Claims Examiner View Edit Claim Test Script">
+    <classes>
+      <class name="com.test.CEVEditClaim"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  
+  
+   <test name="Claims Examiner View Exit Claim Test Script">
+    <classes>
+      <class name="com.test.CEVExitClaim"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  
+  
+  <test name="Claims Examiner View Move Claim Test Script">
+    <classes>
+      <class name="com.test.CEVMoveClaim"/>
+    </classes>
+  </test> <!-- Test -->
+  
+   
+  
+  <test name="Claims Examiner View Reverse Claim Test Script">
+    <classes>
+      <class name="com.test.CEVSimpleReverseClaim"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  
+   <test name="Claims Examiner View Delete Claim Test Script">
+    <classes>
+      <class name="com.test.CEVDeleteClaim"/>
+    </classes>
+  </test> <!-- Test -->
+
+
+<test name="Ending  Test Script">
+    <classes>
+      <class name="com.test.FindNumberOfErrors"/>
+    </classes>
+  </test> <!-- Test -->
+
+
+ 
+  
+  </suite> <!-- Suite -->
+  

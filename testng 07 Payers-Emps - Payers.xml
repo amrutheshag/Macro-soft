@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="DEMO TEST" configfailurepolicy="skip">
+
+  
+  <test name="Starting  Test Script">
+    <classes>
+      <class name="com.test.StartingRegressionSuiteExecution"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  
+  
+ <test name="Payers- Add Payer Test Script">
+    <classes>
+      <class name="com.test.PayerListingAdd"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  
+  <test name="Payers - Edit Payer Test Script">
+    <classes>
+      <class name="com.test.PayerListingEdit"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  
+  <test name="Payers - Copy Payer Test Script">
+    <classes>
+      <class name="com.test.PayerListingCopy"/>
+    </classes>
+  </test> <!-- Test -->
+  
+
+<test name="Payers - Add Comm Payer Test Script">
+    <classes>
+      <class name="com.test.PayerListingAddComm"/>
+    </classes>
+  </test> <!-- Test -->
+
+
+
+<test name="Payers - Exit Payer Test Script">
+    <classes>
+      <class name="com.test.PayerListingExit"/>
+    </classes>
+  </test> <!-- Test -->
+
+
+<test name="Payers - Delete Payer Test Script">
+    <classes>
+      <class name="com.test.PayerListingDelete"/>
+    </classes>
+  </test> <!-- Test -->
+
+
+
+
+<test name="Ending  Test Script">
+    <classes>
+      <class name="com.test.FindNumberOfErrors"/>
+    </classes>
+  </test> <!-- Test -->
+
+
+ 
+  </suite> <!-- Suite -->
+  

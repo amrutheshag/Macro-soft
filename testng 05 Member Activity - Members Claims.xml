@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="DEMO TEST" configfailurepolicy="skip">
+
+  <test name="Starting  Test Script">
+    <classes>
+      <class name="com.test.StartingRegressionSuiteExecution"/>
+    </classes>
+  </test> <!-- Test -->
+  
+ 
+  
+  <test name="Member's Claims Add Claim Test Script">
+    <classes>
+      <class name="com.test.MCAddMultipleClaims"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  
+  <test name="Member's Claims Copy Claim Test Script">
+    <classes>
+      <class name="com.test.MCCopyMultipleClaims"/>
+    </classes>
+  </test> <!-- Test -->
+  
+<test name="Member's Claims Adjudicate Claim Test Script">
+    <classes>
+      <class name="com.test.MCAdjudicateMultipleClaims"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  
+   <test name="Member's Claims Add Communication Claim Test Script">
+    <classes>
+      <class name="com.test.MCAddCommunicationMultipleClaims"/>
+    </classes>
+  </test> <!-- Test -->
+
+
+  
+  
+  
+  <test name="Member's Claims Edit Claim Test Script">
+    <classes>
+      <class name="com.test.MCEditMultipleClaims"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  
+  
+   <test name="Member's Claims Exit Claim Test Script">
+    <classes>
+      <class name="com.test.MCExitMultipleClaims"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  
+  
+ 
+  
+  <test name="Member's Claims New Member Test Script">
+    <classes>
+      <class name="com.test.MCNewMemberMultipleClaims"/>
+    </classes>
+  </test> <!-- Test -->
+  
+   <test name="Member's Claims Move Claim Test Script">
+    <classes>
+      <class name="com.test.MCMoveMultipleClaims"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  
+  
+  
+  <test name="Member's Claims Delete Claim Test Script">
+    <classes>
+      <class name="com.test.MCDeleteMultipleClaims"/>
+    </classes>
+  </test> <!-- Test -->
+  
+
+<test name="Member's Claims Reverse Claim Test Script">
+    <classes>
+      <class name="com.test.MCSimpleReverseMultipleClaims"/>
+    </classes>
+  </test> <!-- Test -->
+
+
+
+
+   <test name="Ending  Test Script">
+    <classes>
+      <class name="com.test.FindNumberOfErrors"/>
+    </classes>
+  </test> <!-- Test -->
+
+
+
+
+  
+  </suite> <!-- Suite -->
+  

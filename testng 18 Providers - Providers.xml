@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="DEMO TEST" configfailurepolicy="skip">
+
+
+
+<test name="Starting  Test Script">
+    <classes>
+      <class name="com.test.StartingRegressionSuiteExecution"/>
+    </classes>
+  </test> <!-- Test -->
+
+
+
+  
+ <test name="Providers- Add Provider Test Script">
+    <classes>
+      <class name="com.test.ProviderAdd"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  
+  <test name="Providers - Edit Provider Test Script">
+    <classes>
+      <class name="com.test.ProviderEdit"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  
+  <test name="Providers - Copy Provider Test Script">
+    <classes>
+      <class name="com.test.ProviderCopy"/>
+    </classes>
+  </test> <!-- Test -->
+  
+
+<test name="Providers - Add Comm Provider Test Script">
+    <classes>
+      <class name="com.test.ProviderAddComm"/>
+    </classes>
+  </test> <!-- Test -->
+
+
+
+<test name="Providers - Exit Provider Test Script">
+    <classes>
+      <class name="com.test.ProviderExit"/>
+    </classes>
+  </test> <!-- Test -->
+
+
+<test name="Providers - Delete Provider Test Script">
+    <classes>
+      <class name="com.test.ProviderDelete"/>
+    </classes>
+  </test> <!-- Test -->
+
+
+<test name="Ending  Test Script">
+    <classes>
+      <class name="com.test.FindNumberOfErrors"/>
+    </classes>
+  </test> <!-- Test -->
+
+
+
+ 
+  </suite> <!-- Suite -->
